@@ -1,0 +1,52 @@
+body {
+	font-size: 0;
+	background: #222222;
+	width: 100%;
+	height: 100%;
+}
+
+.mainBox {
+	width: 100%;
+}
+
+.mainBox img {
+	width: 100%;
+	height: auto;
+	margin: 0;
+	padding: 0;
+	border: none;
+}
+
+.foots {
+	background: #081037;
+}
+
+.TopImg {
+	z-index: 100;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: auto;
+}
+
+.share {
+	height: 1rem;
+}
+
+.share li {
+	opacity: 1;
+}
+
+.maskBox {
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+	background: rgba(0, 0, 0, 0.7);
+	z-index: 1000;
+}
+.wxEwmIcon {
+	width: 50%;
+	height: auto;
+	z-index: 2000;
+}

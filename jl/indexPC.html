@@ -1,0 +1,915 @@
+<!doctype html>
+<html lang="en" xmlns:wb="http://open.weibo.com/wb">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="Description" content="《巨龙法则》是一款西方魔幻题材3DMMORPG手游，精美的地图场景，恢弘的欧式建筑，全新的魔幻剧情，酣畅淋漓的厮杀体验，开启次时代魔幻冒险之旅。360度广阔无垠地域空间，无束缚的自由驰骋，激情澎湃的厮杀竞技，热血狂飙的PK对战，随心所欲的养成体系以及畅通高效的交互沟通，全面构筑起史诗西方魔幻大世界。黑暗尚未散去，光明即将到来，战斗号角已经吹响，唤醒你沉睡的灵魂，激发你内心躁动，英雄集结，为荣耀与权力而战！" />
+		<meta name="keywords" content="巨龙法则、巨龙法则官网、巨龙法则下载、巨龙法则手游、巨龙法则手游官网、巨龙法则安卓下载、巨龙法则iOS下载、巨龙法则OL、巨龙法则手游下载、巨龙法则礼包、巨龙法则手游礼包" />
+		<title>《巨龙法则》手游官方网站-西方魔幻巨龙MMO-争霸巨龙世界</title>
+		<link rel="shortcut icon" href="images/icon.png">
+		<link href="./style/index.css" rel="stylesheet">
+		<link rel="stylesheet" href="./style/swiper.min.css">
+		<link rel="stylesheet" href="./style/layui.css">
+		<link rel="stylesheet" href="./style/jquery-yys-slider.css">
+		<script src="./js/jquery.js"></script>
+		<script src="./js/swiper.js"></script>
+		<script src="./js/jquery-yys-slider.js"></script>
+		<script src="https://tjs.sjs.sinajs.cn/open/api/js/wb.js" type="text/javascript" charset="utf-8"></script>
+		<script>
+			// 用于PC端跳转移动端
+			! function() {
+				function o(o, n) {
+					var e = new RegExp("(?:&|/?)" + n + "=([^&$]+)").exec(o);
+					return e ? e[1] : ""
+				}
+				1 == /iphone|android|ipod/i.test(navigator.userAgent.toLowerCase()) && "mobile" != o(location.search, "from") && (
+					location.href = "index.html")
+			}();
+		</script>
+	</head>
+	<body>
+		<div id="maskBox" class="posFix hide"></div>
+		<img src="./images_pc/dialogIcon.png" alt="" class="dialogIcon posFix cenMid hide">
+		<header>
+			<div class="center_box posRel">
+				<div class="header_right posAbs cenMid">
+					<ul class="nav flex flexBet">
+						<li class="active flex flexAro"><a class="flex flexAro" href="./indexPC.html"><img src="./images_pc/indexIcon.png"
+								 alt=""></a></li>
+						<li class="flex flexAro"><a class="flex flexAro" href="./news/index.html"><img src="./images_pc/newsIcon.png" alt=""></a></li>
+						<li class="flex flexAro"><a class="flex flexAro" href="#"><img style="height:100%;" src="./images_pc/lg.png" alt=""></a></li>
+						<li class="flex flexAro"><a class="flex flexAro" href="#tese"><img src="./images_pc/teseIcon.png" alt=""></a></li>
+						<li class="flex flexAro"><a class="flex flexAro" href="#video"><img src="./images_pc/videoIcon.png" alt=""></a></li>
+					</ul>
+				</div>
+				<div class="posAbs mid" style="right: 6%;height: 100%;width: 90px;">
+					<div class="posRel wh">
+						<img src="./images_pc/share.png" alt="" class="share posAbs cenMid">
+						<div id="share_box" class="hide">
+							<ul class="share_nav">
+								<!--微博分享-->
+								<li class="flex flexAro">
+									<a id="shareBtn" href="javascript:void(0)" target="_blank">
+										<img src="./images_pc/weibo.png" alt="">
+									</a>
+								</li>
+								<!--QQ空间分享-->
+								<li class="flex flexAro">
+									<script type="text/javascript">
+										document.write(['<a href="http://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey?url=' +
+											'http://jl.52win.com', , '&title=',
+											'西方魔幻巨龙MMO手游《巨龙法则》，【千名主播线上助阵】360度广阔无垠地域空间，全程高燃的战斗任务。 【软萌客服一对一定制化在线服务】遵从意志选择适合自己的职业，召唤灵魂的伙伴，集结更多的勇士，世界需要你的加入！',
+											'&summary=',
+											'',
+											'" target="_blank"  title="分享到QQ空间"><img src="./images_pc/qqzone.png" alt="分享到QQ空间" /></a>'
+										].join(''));
+									</script>
+								</li>
+								<!--微信分享扫码进入公众号-->
+								<li class="flex flexAro posRel">
+									<img src="./images_pc/wechat.png" alt="" class="wechat_mouseover">
+									<img src="./images_pc/checkUp_share.png" alt="" class="wechat posAbs mid">
+								</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+		</header>
+
+		<!-- //侧边栏 -->
+		<div id="rightBox" class="posFix mid">
+			<div class="posRel wh">
+				<img src="./images_pc/ce.png" alt="" class="yuyueIcon download">
+				<img src="./images_pc/weChatBg.png" alt="" class="weChatBg">
+				<img src="./images_pc/baidutieba.png" alt="" class="baidutieba">
+				<img src="./images_pc/qqIcon.png" alt="" class="qqIcon">
+				<img src="./images_pc/outIcon.png" alt="" class="outIcon posAbs mid hide">
+				<img src="./images_pc/leaverIcon.png" alt="" class="leaverIcon posAbs mid">
+				<em class="backTopBox posAbs cen"></em>
+			</div>
+		</div>
+		<!-- //侧边栏 -->
+
+		<!--bunner-->
+		<div id="bunner">
+			<div class="center_box" style="position: relative;">
+				<canvas id="canvas" class="wh posAbs"></canvas>
+				<img src="./images_pc/slogan.png" alt="" class="sloganImg posAbs cen">
+				<img src="./images_pc/anniu.gif" alt="" class="anniuIcon posAbs play" data-videourl="./mp4/index.mp4">
+				<div class="bunner_img cen flex flexBet">
+					<img src="./images_pc/xsLbIcon.png" alt="" class="xsLbIcon xsLbIconAnimation">
+					<div class="block_img flex">
+						<a href="javascript:;" class="androidAppDown"><img src="./images_pc/android.png" alt="" class="android androidAppDown"></a>
+						<a href="javascript:;" class="iosAppDown"><img src="./images_pc/app.png" alt="" class="ios"></a>
+					</div>
+					<img src="" alt="" class="checkUp">
+				</div>
+			</div>
+		</div>
+		<!--新闻资讯模块-->
+		<div id="newsBox">
+			<img src="./images_pc/newsBoxBg.png" style="width: 100%;height: 100%;" class="newsBoxBg">
+			<div class="news_box posAbs cenMid">
+				<div class="swiperBox posRel">
+					<ul class="swiperIconBox posAbs flex flexAro">
+						<li class="posRel">
+							<img src="./images_pc/swiperClickIcon.png" class="swiperClickIcon posAbs wh">
+							<img src="./images_pc/swiperDefaultIcon.png" class="swiperDefaultIcon posAbs wh">
+						</li>
+						<li class="posRel">
+							<img src="./images_pc/swiperClickIcon.png" class="swiperClickIcon posAbs wh">
+							<img src="./images_pc/swiperDefaultIcon.png" class="swiperDefaultIcon posAbs wh">
+						</li>
+						<li class="posRel">
+							<img src="./images_pc/swiperClickIcon.png" class="swiperClickIcon posAbs wh hide">
+							<img src="./images_pc/swiperDefaultIcon.png" class="swiperDefaultIcon posAbs wh">
+						</li>
+						<li class="posRel">
+							<img src="./images_pc/swiperClickIcon.png" class="swiperClickIcon posAbs wh hide">
+							<img src="./images_pc/swiperDefaultIcon.png" class="swiperDefaultIcon posAbs wh">
+						</li>
+					</ul>
+					<div class="swiperItemBox posAbs wh swiperItemBox1">
+						<div class="posRel wh">
+							<div class="descBox posAbs flex flexSta">
+								《巨龙法则》全平台今日上线，自邪龙降临
+							</div>
+						</div>
+					</div>
+					<div class="swiperItemBox posAbs wh swiperItemBox2">
+						<div class="posRel wh">
+							<div class="descBox posAbs flex flexSta">
+								《巨龙法则》全平台今日上线，自邪龙降临
+							</div>
+						</div>
+					</div>
+					<div class="swiperItemBox posAbs wh swiperItemBox3">
+						<div class="posRel wh">
+							<div class="descBox posAbs flex flexSta">
+								《巨龙法则》全平台今日上线，自邪龙降临
+							</div>
+						</div>
+					</div>
+					<div class="swiperItemBox posAbs wh swiperItemBox4">
+						<div class="posRel wh">
+							<div class="descBox posAbs flex flexSta">
+								《巨龙法则》全平台今日上线，自邪龙降临
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="newsListBox">
+					<div class="newsTabBox flex flexBet">
+						<ul class="clear">
+							<li class="flex flexCen active">
+								全部
+							</li>
+							<li class="flex flexCen">
+								新闻
+							</li>
+							<li class="flex flexCen">
+								活动
+							</li>
+							<li class="flex flexCen">
+								公告
+							</li>
+						</ul>
+						<img src="./images_pc/more2.png" alt="" class="moreNews">
+					</div>
+					<div class="news_content">
+						<ul class="new" style="display: block;">
+							<li class="flex flexBet">
+								<a class="elis" href="./news/2019/0808/01.html" target='_blank'>【新闻】巨龙出没 一起盘他 《巨龙法则》抖音挑战赛火爆开启 </a><span class="">08/09</span>
+							</li>
+							<li class="flex flexBet">
+								<a class="elis" href="./news/2019/0123/36.html" target='_blank'>【新闻】殿堂级3DMMO魔幻手游《巨龙法则》</a><span class="">06/23</span>
+							</li>
+							<li class="flex flexBet">
+								<a class="elis" href="./activity/2018/1114/10.html" target='_blank'>【活动】《巨龙法则》时装秀维京篇</a><span class="fr">06/17</span>
+							</li>
+							<li class="flex flexBet">
+								<a class="elis" href="./news/2018/1212/28.html" target='_blank'>【新闻】《巨龙法则》即将开启，携龙一战改变世界吧！</a><span class="">06/15</span>
+							</li>
+							<li class="flex flexBet">
+								<a class="elis" href="./news/2018/1213/34.html" target='_blank'>【新闻】亡灵游侠弓箭技能大揭秘！《巨龙法则》3大主角介绍--亡灵游侠</a><span
+								 class="">06/04</span>
+							</li>
+							<li class="flex flexBet">
+								<a class="elis" href="./news/2018/1213/32.html" target='_blank'>【新闻】《巨龙法则》全开放主城原画曝光 带你见证恢弘魔幻大陆</a><span class="">05/28</span>
+							</li>
+						</ul>
+						<ul class="new hide">
+							<li class="flex flexBet">
+								<a class="elis" href="./news/2019/0808/01.html" target='_blank'>【新闻】巨龙出没 一起盘他 《巨龙法则》抖音挑战赛火爆开启 </a><span class="">08/09</span>
+							</li>
+							<li class="flex flexBet">
+								<a class="elis" href="./news/2019/0123/36.html" target='_blank'>【新闻】殿堂级3DMMO魔幻手游《巨龙法则》</a><span class="">06/23</span>
+							</li>
+							<li class="flex flexBet">
+								<a class="elis" href="./news/2018/1212/28.html" target='_blank'>【新闻】《巨龙法则》即将开启，携龙一战改变世界吧！</a><span class="">06/15</span>
+							</li>
+							<li class="flex flexBet">
+								<a class="elis" href="./news/2018/1213/34.html" target='_blank'>【新闻】亡灵游侠弓箭技能大揭秘！《巨龙法则》3大主角介绍--亡灵游侠</a><span
+								 class="">06/04</span>
+							</li>
+							<li class="flex flexBet">
+								<a class="elis" href="./news/2018/1213/32.html" target='_blank'>【新闻】《巨龙法则》全开放主城原画曝光 带你见证恢弘魔幻大陆</a><span class="">05/28</span>
+							</li>
+							<li class="flex flexBet">
+								<a class="elis" href="./news/2018/1213/30.html" target='_blank'>【新闻】维京战士剑盾技能大揭秘！《巨龙法则》3大主角介绍--战斧维京战士</a><span
+								 class="">05/25</span>
+							</li>
+						</ul>
+						<ul class="new hide">
+							<li class="flex flexBet">
+								<a class="elis" href="./activity/2018/1114/10.html" target='_blank'>【活动】《巨龙法则》时装秀维京篇</a><span class="fr">06/17</span>
+							</li>
+						</ul>
+						<ul class="new hide">
+
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!--新闻资讯模块-->
+		<div id="story">
+			<div class="center_box">
+				<img src="./images_pc/story_title.png" alt="" class="story_title">
+				<div class="story_bunner flex flexCen">
+					<ul class="flex flexCen">
+						<li class="active">
+							<img src="./images_pc/1.png" alt="" data-videourl="./video/v1.mp4" class="defaultImg">
+							<img src="./images_pc/1-ed.png" alt="" data-videourl="./video/v1.mp4" class="activeImg">
+						</li>
+						<li>
+							<img src="./images_pc/2.png" alt="" data-videourl="./video/v2.mp4" class="defaultImg">
+							<img src="./images_pc/2-ed.png" alt="" data-videourl="./video/v2.mp4" class="activeImg">
+						</li>
+						<li>
+							<img src="./images_pc/3.png" alt="" data-videourl="./video/v3.mp4" class="defaultImg">
+							<img src="./images_pc/3-ed.png" alt="" data-videourl="./video/v3.mp4" class="activeImg">
+						</li>
+						<li>
+							<img src="./images_pc/4.png" alt="" data-videourl="./video/v4.mp4" class="defaultImg">
+							<img src="./images_pc/4-ed.png" alt="" data-videourl="./video/v4.mp4" class="activeImg">
+						</li>
+						<li>
+							<img src="./images_pc/5.png" alt="" data-videourl="./video/v5.mp4" class="defaultImg">
+							<img src="./images_pc/5-ed.png" alt="" data-videourl="./video/v5.mp4" class="activeImg">
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		<!--职业介绍-->
+		<div id="role" class="posRel">
+			<img src="./images_pc/role_title.png" alt="" class="role_title">
+			<img src="./images_pc/role-bg.png" alt="" class="posAbs" style="width: 100%;">
+			<div class="role_box posRel">
+				<div class="chose_role posRel">
+					<img src="./images_pc/prince.png" alt="" class="word cenMid posAbs">
+					<img src="./images_pc/role-magic-sword.png" alt="" class="role_1 role_left posAbs mid">
+					<img src="./images_pc/role-Wand.png" alt="" class="role_2 role_right posAbs mid">
+				</div>
+				<div class="chose_role posRel">
+					<img src="./images_pc/viking_word.png" alt="" class="word posAbs cenMid">
+					<img src="./images_pc/role-Twin-Axes.png" alt="" class="role_1 posAbs mid">
+					<img src="./images_pc/role-Sword-Shield.png" alt="" class="role_2 posAbs mid">
+				</div>
+				<div class="chose_role posRel">
+					<img src="./images_pc/die.png" alt="" class="word cenMid posAbs">
+					<img src="./images_pc/role-dagger.png" alt="" class="role_1 posAbs mid">
+					<img src="./images_pc/role-Bow.png" alt="" class="role_2 posAbs mid">
+				</div>
+			</div>
+			<div class="role_tab flex flexCen">
+				<ul>
+					<li class="flex flexCen">
+						<img src="./images_pc/1-head.png" alt="" class="head_off">
+					</li>
+					<li class="flex flexCen">
+						<img src="./images_pc/2-head-on.png" alt="">
+					</li>
+					<li class="flex flexCen">
+						<img src="./images_pc/3-head.png" alt="" class="head_off">
+					</li>
+				</ul>
+			</div>
+		</div>
+		<!--游戏特色-->
+		<div id="tese" class="posRel">
+			<img src="./images_pc/tese_title.png" alt="" class="tese_title">
+			<div class="content-part part-tese posAbs cen">
+				<div class="content-title">
+				</div>
+				<div class="shadow">
+				</div>
+				<div class="gallery_container">
+					<div class="gallery_wrap threeD_gallery_wrap">
+						<div href="javascript:;" class="gallery_item threeD_gallery_item gallery_left_middle">
+							<img src="./images_pc/banner1.png" class="show">
+						</div>
+						<div href="javascript:;" class="gallery_item threeD_gallery_item front_side">
+							<img src="./images_pc/banner2.png" class="show">
+						</div>
+						<div href="javascript:;" class="gallery_item threeD_gallery_item gallery_right_middle">
+							<img src="./images_pc/banner3.png" class="show">
+						</div>
+						<div href="javascript:;" class="gallery_item threeD_gallery_item gallery_out">
+							<img src="./images_pc/banner4.png" class="show">
+						</div>
+						<div href="javascript:;" class="gallery_item threeD_gallery_item gallery_out">
+							<img src="./images_pc/banner5.png" class="show">
+						</div>
+					</div>
+					<a class="prev flex flexEnd" href="javascript:;">
+						<img src="./images_pc/zuo.png" alt="prev">
+					</a>
+					<a class="next flex flexSta" href="javascript:;">
+						<img src="./images_pc/you.png" alt="next">
+					</a>
+				</div>
+			</div>
+		</div>
+		<!--影音专区-->
+		<div id="video">
+			<img src="./images_pc/video_title.png" class="video_title" alt="">
+			<ul class="video_img flex flexAro">
+				<li><img src="./images_pc/video-1.png" class="small" data-img="./images_pc/video-1-big.jpg"><span></span></li>
+				<li><img src="./images_pc/video-2.png" class="small" data-img="./images_pc/video-2-big.jpg"><span></span></li>
+				<li><img src="./images_pc/video-3.png" class="small" data-img="./images_pc/video-3-big.jpg"><span></span></li>
+				<li><img src="./images_pc/video-4.png" class="small" data-img="./images_pc/video-4-big.jpg"><span></span></li>
+				<li><img src="./images_pc/video-5.png" class="small" data-img="./images_pc/video-5-big.jpg"><span></span></li>
+				<li><img src="./images_pc/video-6.png" class="small" data-img="./images_pc/video-6-big.jpg"><span></span></li>
+				<li><img src="./images_pc/video-7.png" class="small" data-img="./images_pc/video-7-big.jpg"><span></span></li>
+				<li><img src="./images_pc/video-8.png" class="small" data-img="./images_pc/video-8-big.jpg"><span></span></li>
+			</ul>
+		</div>
+		<!--官方渠道-->
+		<div id="contact">
+			<img src="./images_pc/contact_title.png" class="contact_title" alt="">
+			<ul class="flex flexBet contact_box">
+				<li>
+					<a href="javascript:;" class="wh">
+						<img class="wh" src="./images_pc/contactWx.png" alt="">
+					</a>
+				</li>
+				<li>
+					<a href="javascript:;" class="wh">
+						<img class="wh ljfzWeiBo" src="./images_pc/contactWeiBo.png" alt="">
+					</a>
+				</li>
+				<li>
+					<a href="javascript:;" class="wh">
+						<img class="wh jlfzTieBa" src="./images_pc/contactTieBa.png" alt="">
+					</a>
+				</li>
+				<li>
+					<a href="javascript:;" class="wh">
+						<img class="wh jlfzQQ" src="./images_pc/contactQQ.png" alt="">
+					</a>
+				</li>
+			</ul>
+		</div>
+		<!-- 清风底部 -->
+		<footer>
+			<!-- <div class="footer-row helper">
+				<a href="http://www.520cai.com/home.php/Index/News/aboutus/id/1" target="_blank">关于我们</a>
+				<span class="dwCommonFooter__split">|</span>
+				<a href="http://www.520cai.com/home.php/Index/News/aboutus/id/2" target="_blank">商务合作</a>
+				<span class="dwCommonFooter__split">|</span>
+				<a href="http://www.520cai.com/home.php/Index/News/aboutus/id/4" target="_blank">联系我们</a>
+				<span class="dwCommonFooter__split">|</span>
+				<a href="http://www.520cai.com/home.php/Index/Index/custody" target="_blank">家长监护</a>
+			</div> -->
+			<div class="footer-row">
+				<p>版权所有：武汉极游控科技有限公司 </p>
+			</div>
+			<div class="footer-row">
+				<a target="_blank" href="javascript:;">网络文化经营许可证：鄂网文 【2018】5264 148号 </a>
+
+			</div>
+			<div class="footer-row">
+				<a target="_blank" href="javascript:;">经营许可证编号:鄂B2-20190050</a>
+				<a>互联网ICP备案：鄂ICP备18007936号-2</a>
+			</div>
+			<div class="footer-row">
+				<p>抵制不良游戏，拒绝盗版游戏。注意自我保护，谨防受骗上当。适度游戏益脑，沉迷游戏伤身。合理安排时间，享受健康生活。</p>
+			</div>
+		</footer>
+		<!-- 清风底部 -->
+		<!-- 预约窗口 -->
+		<div id="get" class="window">
+			<a class="close" href="javascript:void(0)" title="关闭"></a>
+			<div class="check-box">
+				<a href="javascript:void(0);" data-check="apple" class="ios on"><i></i>iOS</a>
+				<a href="javascript:void(0);" data-check="android" class="android"><i></i>安卓</a>
+			</div>
+			<ul>
+				<li><input name="" type="text" class="phone-box m-box" value="请输入手机号码" onfocus="if(value=='请输入手机号码') {value=''}"
+					 onblur="if (value=='') {value='请输入手机号码'}"></li>
+				<li class="mt-30">
+					<!-- <a href="javascript:void(0);" class="yzm">重新获取</a> --><a href="javascript:void(0);" class="yzm">获取验证码</a><input
+					 name="" type="text" class="phone-box yzm-box" value="请输入验证码" onfocus="if(value=='请输入验证码') {value=''}" onblur="if (value=='') {value='请输入验证码'}"></li>
+			</ul>
+			<a href="javascript:;" class="submit-bit" title="确认">确认</a>
+			<p>注:本次预约活动为公测专属活动，预约奖励将在公测开启时发放!</p>
+		</div>
+
+		<!--视频弹出one-->
+		<div id="game_video" class="views">
+			<div>
+				<video controls></video>
+				<b>×</b>
+			</div>
+		</div>
+		<script src="./js/yuyue.js"></script>
+		<script>
+			//获取滚动条高度;
+			window.onscroll = function(e) {
+				var e = e || window.event;
+				var scrolltop = document.documentElement.scrollTop || document.body.scrollTop;
+				var indexHomeBoxHeight = $("#bunner").height();
+				var indexNewsBoxHeight = $("#newsBox").height();
+				var indexStoryBoxHeight = $("#story").height();
+				var indexRoleBoxHeight = $("#role").height();
+				var indexTeseBoxHeight = $("#tese").height();
+				var indexVideoBoxHeight = $("#video").height();
+				var indexContactBoxHeight = $("#contact").height();
+				if (scrolltop > indexHomeBoxHeight * 0.6) {
+					$("#newsBox .news_box .swiperBox").addClass("swiper_bounceInRight");
+					$("#newsBox .news_box .newsListBox").addClass("newsListBox_bounceInLeft");
+				};
+
+				if (scrolltop > (indexHomeBoxHeight + indexNewsBoxHeight) * 0.6) {
+					$("#story .story_bunner ul li").eq(0).addClass('story_bunner_bounceInTop');
+					setTimeout(function() {
+						$("#story .story_bunner ul li").eq(1).addClass('story_bunner_bounceInTop');
+					}, 200)
+					setTimeout(function() {
+						$("#story .story_bunner ul li").eq(2).addClass('story_bunner_bounceInTop');
+					}, 400)
+					setTimeout(function() {
+						$("#story .story_bunner ul li").eq(3).addClass('story_bunner_bounceInTop');
+					}, 600)
+					setTimeout(function() {
+						$("#story .story_bunner ul li").eq(4).addClass('story_bunner_bounceInTop');
+					}, 800)
+				};
+				if (scrolltop > (indexHomeBoxHeight + indexNewsBoxHeight + indexStoryBoxHeight + indexRoleBoxHeight +
+						indexTeseBoxHeight + indexVideoBoxHeight) * 0.85) {
+					$("#video .video_img li").eq(0).addClass('video_img_bounceInLeft');
+					setTimeout(function() {
+						$("#video .video_img li").eq(1).addClass('video_img_bounceInLeft');
+					}, 200)
+					setTimeout(function() {
+						$("#video .video_img li").eq(2).addClass('video_img_bounceInLeft');
+					}, 400)
+					setTimeout(function() {
+						$("#video .video_img li").eq(3).addClass('video_img_bounceInLeft');
+					}, 600)
+					setTimeout(function() {
+						$("#video .video_img li").eq(4).addClass('video_img_bounceInLeft');
+					}, 800)
+					setTimeout(function() {
+						$("#video .video_img li").eq(5).addClass('video_img_bounceInLeft');
+					}, 1000)
+					setTimeout(function() {
+						$("#video .video_img li").eq(6).addClass('video_img_bounceInLeft');
+					}, 1200)
+					setTimeout(function() {
+						$("#video .video_img li").eq(7).addClass('video_img_bounceInLeft');
+					}, 1400)
+				};
+			};
+
+			$(function() {
+				//首屏添加动效
+				setTimeout(function() {
+					$(".center_box .sloganImg").addClass("sloganImg_bounceInRight");
+					$(".center_box .anniuIcon").addClass("anniuIcon_bounceInLeft");
+				}, 1000);
+				setTimeout(function() {
+					$("#rightBox").addClass("rightBox_bounceInTop");
+				}, 1500);
+				//添加的动画
+				$(".xsLbIcon").addClass("xsLbIconAnimation");
+				//点击跳转到新闻页面
+				$(".moreNews").on("click", function() {
+					window.location.href = './news/index.html';
+				})
+				//游戏特色方法
+				$('.content-part.part-tese').addClass('show');
+				$('.gallery_container').gallery_slider({
+					imgNum: 5
+				});
+				//新闻的轮播图
+				var newsSwiperIndex = 0;
+				var autoPlay = function() {
+					$(".swiperIconBox li").eq(newsSwiperIndex).addClass("active");
+					$(".swiperIconBox li").eq(newsSwiperIndex).siblings().removeClass("active");
+					$(".swiperItemBox").eq(newsSwiperIndex).addClass("activeItem");
+					$(".swiperItemBox").eq(newsSwiperIndex).siblings().removeClass("activeItem");
+				}
+				autoPlay();
+				var swiperScroll = setInterval(function() {
+					newsSwiperIndex++;
+					if (newsSwiperIndex > 3) {
+						newsSwiperIndex = 0;
+					}
+					autoPlay();
+				}, 2000);
+				$(".swiperIconBox li").on("click", function() {
+					clearInterval(swiperScroll);
+					newsSwiperIndex = $(this).index();
+					autoPlay();
+				});
+
+				$('.swiperBox').mouseover(function() {
+					clearInterval(swiperScroll);
+				});
+				$(".swiperBox").mouseleave(function() {
+					swiperScroll = setInterval(function() {
+						newsSwiperIndex++;
+						if (newsSwiperIndex > 3) {
+							newsSwiperIndex = 0;
+						}
+						autoPlay();
+					}, 2000);
+				});
+				
+				//礼包点击弹窗
+				$(".xsLbIcon").on("click",function(){
+					$('#maskBox').show();
+					$('.dialogIcon').show();
+					$("#maskBox").on("click",function(){
+						$('#maskBox').hide();
+						$('.dialogIcon').hide();
+					})
+				})
+
+				//新闻列表模块的切换
+				$('.newsTabBox ul li').hover(function() {
+					$(this).addClass("active");
+					$(this).siblings().removeClass("active");
+					var index = $(this).index();
+					$(".new").eq(index).show();
+					$(".new").eq(index).siblings().hide();
+				})
+
+				// 弹出登录框
+				function show() {
+					closeAll();
+					$(".windowblack").height($("body").height()).show();
+					$(".window").show();
+				}
+
+				function closeAll() {
+					$(".windowblack,.window").hide();
+				}
+
+				//打开预约窗口
+				$('.block_img .btn-b,.download').click(function() {
+					$('#get').show();
+				})
+				//关闭预约窗口
+				$('.get_x,.close').click(function() {
+					$('#get').hide();
+				})
+
+				//视频弹出one
+				var $video = $("#game_video video");
+				$(".story_bunner ul li img ,.play").click(function() {
+					var videoURL = $(this).attr("data-videoURL");
+					if (typeof(videoURL) != "undefined") {
+						$video.attr("src", videoURL).parents("#game_video").slideDown(400).css("display", "table"); //更新url
+						$("#game_video video").attr("autoplay", "true"); //直接播放
+					}
+					return false
+				})
+				$video.next("b").on("click", function() {
+					$video.get(0).pause();
+					$video.parents("#game_video").slideUp(400);
+				})
+
+				//关闭右侧弹窗
+				$(".leaverIcon").on("click", function() {
+					$("#rightBox").animate({
+						right: "-8.5%"
+					}, 1000);
+					$("#rightBox").find(".outIcon").show();
+					$("#rightBox").find(".leaverIcon").hide();
+				})
+
+				//打开右侧弹窗
+				$(".outIcon").on("click", function() {
+					$("#rightBox").animate({
+						right: "0%"
+					}, 1000);
+					$("#rightBox").find(".outIcon").hide();
+					$("#rightBox").find(".leaverIcon").show();
+				})
+
+				//分享按钮
+				$('.share').mouseover(function() {
+					$('#share_box').slideDown('1000');
+					$('.share').hide('1000');
+				});
+				$('#share_box ul li').click(function() {
+					$('#share_box').slideUp('1000');
+					$('.share').show('1000');
+				})
+
+				//鼠标移入微信分享按钮
+				$('.wechat_mouseover').mouseover(function() {
+					$('.wechat').show();
+				})
+				$('.wechat').mouseout(function() {
+					$('#share_box').slideUp('1000');
+					$('.wechat').hide();
+					$('.share').show('1000');
+				})
+
+				//点击除分享区域外的地方，隐藏分享区域
+				$(document).click(function() {
+					$('#share_box').slideUp('1000');
+					$('.share').show('1000');
+					$('.wechat').hide();
+				});
+				$("#share_box").click(function(event) {
+					event.stopPropagation();
+				});
+			})
+		</script>
+
+		<!--大图弹出-->
+		<div id="game-img" class="img-views">
+			<div>
+				<img>
+				<span>×</span>
+			</div>
+		</div>
+
+		<script>
+			window.onload = function() {
+				var story_bunner_height = $(".story_bunner ul li").eq(1).height() - 100;
+				$(".story_bunner ul li").height(story_bunner_height + 'px');
+				$(".story_bunner ul .active").width(story_bunner_height + 'px');
+				$('.story_bunner ul li').mouseover(function() {
+					$(this).addClass('active');
+					$(this).siblings().removeClass('active');
+					$(".story_bunner ul li").height(story_bunner_height + 'px');
+					$(".story_bunner ul li").width(9 + '%');
+					$(".story_bunner ul .active").width(story_bunner_height + 'px');
+				})
+			}
+			$(function() {
+				// 大图显示
+				$(".video_img li .small").click(function() {
+					$(this).siblings("img").show();
+				})
+				$(".video_img li span").click(function() {
+					var img = $(this).siblings("img").attr("data-img");
+					$(".img-views img").attr({
+						"src": img
+					});
+					$(".img-views").slideDown(400).show();
+				});
+				$(".img-views span").on("click", function() {
+					$("#game-img").slideUp(400);
+				})
+
+				//BUNNER轮播图
+				var swiper = new Swiper('.swiper-container', {
+					pagination: '.swiper-pagination',
+					paginationClickable: true,
+					// 自动播放时间
+					autoplay: 2000,
+					// 播放的速度
+					speed: 1000
+				});
+
+				//header li切换
+				$('.header_right .nav li').click(function() {
+					$(this).addClass('active');
+					$(this).siblings().removeClass('active');
+				})
+
+				//职业介绍--职业选择
+				let role_tab_index = 1;
+				$('.chose_role').hide().eq(role_tab_index).show();
+				$('.role_tab ul li').click(function() {
+					$('.role_1').css('left', '-35%');
+					$('.role_2').css('right', '-35%');
+					role_tab_index = $(this).index();
+					$('.chose_role').hide().eq(role_tab_index).show();
+					$('.role_1').show().animate({
+						left: "0%"
+					});
+					$('.role_2').show().animate({
+						right: "0%"
+					});
+					var _img = $(this).find('img');
+					var _index = $(this).index() + 1;
+					$('.role_tab ul li').each(function(index) {
+						$(this).find('img').addClass('head_off').attr('src', './images_pc/' + (index + 1) +
+							'-head.png')
+					})
+					_img.attr('src', './images_pc/' + _index + '-head-on.png').removeClass('head_off')
+				})
+
+				//影音专区--翻页
+				tab();
+				function tab() {
+					var $obj = $('.video_img');
+					var len = $obj.length;
+					var i = 0;
+					$(".button-left").click(function() {
+						i++;
+						if (i == len) {
+							i = 0;
+						}
+						$obj.stop(true, true).hide().eq(i).fadeIn(600);
+						return false;
+					});
+					$(".button-right").click(function() {
+						i--;
+						if (i == -1) {
+							i = len - 1;
+						}
+						$obj.stop(true, true).hide().eq(i).fadeIn(600);
+						return false;
+					});
+				}
+
+				//关闭侧栏
+				$('.x_img').click(function() {
+					$('#right').hide();
+				})
+				$('.btn_img').click(function() {
+					$('#right').show();
+				})
+				//bunner_list新闻列表切换
+				$(".news_title ul li").on("mouseover", function() {
+					$(".news_content ul").hide().eq($(this).index()).show();
+					$(this).addClass('active');
+					$(this).siblings().removeClass('active');
+				});
+			})
+		</script>
+		<script>
+			function ShowCountDown(year, month, day, hour, minute, second) {
+				var now = new Date();
+				var endDate = new Date(year, month - 1, day, hour, minute, second);
+				var allTime = endDate.getTime() - now.getTime();
+				if (allTime > 0) {
+					$(".block_img .btn-b").show();
+				} else {
+					$(".block_img .btn-b").hide();
+				}
+			}
+			// 时间设定 2018,11,20,7,0,0
+			window.setInterval(function() {
+				ShowCountDown(2019, 1, 24, 9, 0, 0);
+			}, 100);
+		</script>
+		<script type="text/javascript">
+			var locationHref = window.location.href;
+			var locationPathname = window.location.pathname;
+			var pathName = locationPathname.split('/')[1];
+			console.log(locationHref, locationPathname, pathName);
+			if (pathName == 'dypz') { //dypz
+				var cnzz_protocol = (("https:" == document.location.protocol) ? "https://" : "http://");
+				document.write(unescape("%3Cspan id='cnzz_stat_icon_1277855749'%3E%3C/span%3E%3Cscript src='" + cnzz_protocol +
+					"v1.cnzz.com/z_stat.php%3Fid%3D1277855749%26show%3Dpic1' type='text/javascript'%3E%3C/script%3E"));
+				//下载链接方法
+				$(".iosAppDown").on("click", function() {
+					window.open('http://uri6.com/tkio/uAFfeua', 'newwindow')
+				});
+				$(".androidAppDown").on("click", function() {
+					window.open('https://down.520cai.net/sdkgame/jlfzgband_6227/jlfzgband_6227_14208.apk', 'newwindow')
+				})
+				$(".checkUp").attr("src", './images_pc/checkUp_join.png');
+				$(".downLoadIcon").show();
+			} else if (pathName == 'dydr') { //dydr
+				var cnzz_protocol = (("https:" == document.location.protocol) ? "https://" : "http://");
+				document.write(unescape("%3Cspan id='cnzz_stat_icon_1277855789'%3E%3C/span%3E%3Cscript src='" + cnzz_protocol +
+					"s4.cnzz.com/z_stat.php%3Fid%3D1277855789%26show%3Dpic1' type='text/javascript'%3E%3C/script%3E"));
+				//下载链接方法
+				$(".iosAppDown").on("click", function() {
+					window.open('http://uri6.com/tkio/QBRjema', 'newwindow')
+				});
+				$(".androidAppDown").on("click", function() {
+					window.open('https://down.520cai.net/sdkgame/jlfzgband_6227/jlfzgband_6227_14209.apk', 'newwindow')
+				})
+				$(".checkUp").attr("src", './images_pc/checkUp_join.png');
+				$(".downLoadIcon").show();
+			} else if (pathName == 'dyld') { //dyld
+				var cnzz_protocol = (("https:" == document.location.protocol) ? "https://" : "http://");
+				document.write(unescape("%3Cspan id='cnzz_stat_icon_1277855805'%3E%3C/span%3E%3Cscript src='" + cnzz_protocol +
+					"v1.cnzz.com/z_stat.php%3Fid%3D1277855805%26show%3Dpic1' type='text/javascript'%3E%3C/script%3E"));
+				//下载链接方法
+				$(".iosAppDown").on("click", function() {
+					window.open('http://uri6.com/tkio/Nb2uyya', 'newwindow')
+				});
+				$(".androidAppDown").on("click", function() {
+					window.open('https://down.520cai.net/sdkgame/jlfzgband_6227/jlfzgband_6227_14210.apk', 'newwindow')
+				})
+				$(".checkUp").attr("src", './images_pc/checkUp_join.png');
+				$(".downLoadIcon").show();
+			} else if (pathName == 'dysy') { //dysy
+				var cnzz_protocol = (("https:" == document.location.protocol) ? "https://" : "http://");
+				document.write(unescape("%3Cspan id='cnzz_stat_icon_1277855810'%3E%3C/span%3E%3Cscript src='" + cnzz_protocol +
+					"v1.cnzz.com/z_stat.php%3Fid%3D1277855810%26show%3Dpic1' type='text/javascript'%3E%3C/script%3E"));
+				//下载链接方法
+				$(".iosAppDown").on("click", function() {
+					window.open('http://uri6.com/tkio/UbiAfea', 'newwindow')
+				});
+				$(".androidAppDown").on("click", function() {
+					window.open('https://down.520cai.net/sdkgame/jlfzgband_6227/jlfzgband_6227_14211.apk', 'newwindow')
+				})
+				$(".checkUp").attr("src", './images_pc/checkUp_join.png');
+				$(".downLoadIcon").show();
+			} else if (pathName == 'dyyg') { //dyyg
+				var cnzz_protocol = (("https:" == document.location.protocol) ? "https://" : "http://");
+				document.write(unescape("%3Cspan id='cnzz_stat_icon_1277900328'%3E%3C/span%3E%3Cscript src='" + cnzz_protocol +
+					"v1.cnzz.com/z_stat.php%3Fid%3D1277900328%26show%3Dpic1' type='text/javascript'%3E%3C/script%3E"));
+				//下载链接方法
+				$(".iosAppDown").on("click", function() {
+					window.open('https://apps.apple.com/cn/app/id1325971805', 'newwindow')
+				});
+				$(".androidAppDown").on("click", function() {
+					window.open('http://www.ggamec.com/xyxldown/julong_szsl.html', 'newwindow')
+				})
+				$(".checkUp").attr("src", './images_pc/checkUp_join.png');
+				$(".downLoadIcon").show();
+			} else if (pathName == 'bd') { //百度大搜
+				var cnzz_protocol = (("https:" == document.location.protocol) ? "https://" : "http://");
+				document.write(unescape("%3Cspan id='cnzz_stat_icon_1277858857'%3E%3C/span%3E%3Cscript src='" + cnzz_protocol +
+					"s4.cnzz.com/z_stat.php%3Fid%3D1277858857%26show%3Dpic1' type='text/javascript'%3E%3C/script%3E"));
+				//下载链接方法
+				$(".iosAppDown").on("click", function() {
+					window.open('http://uri6.com/tkio/6BrMrea', 'newwindow')
+				});
+				$(".androidAppDown").on("click", function() {
+					window.open('https://down.520cai.net/sdkgame/jlfzgband_6227/jlfzgband_6227_14256.apk', 'newwindow')
+				})
+				$(".checkUp").attr("src", './images_pc/bdDownLoadIcon.png');
+				$(".sm").attr("src", './images_pc/bdDownLoadIcon1.png');
+			} else if (pathName == 'sg') { //搜狗大搜
+				var cnzz_protocol = (("https:" == document.location.protocol) ? "https://" : "http://");
+				document.write(unescape("%3Cspan id='cnzz_stat_icon_1277858861'%3E%3C/span%3E%3Cscript src='" + cnzz_protocol +
+					"s4.cnzz.com/z_stat.php%3Fid%3D1277858861%26show%3Dpic1' type='text/javascript'%3E%3C/script%3E"));
+				//下载链接方法
+				$(".iosAppDown").on("click", function() {
+					window.open('http://uri6.com/tkio/7JZRFna', 'newwindow')
+				});
+				$(".androidAppDown").on("click", function() {
+					window.open('https://down.520cai.net/sdkgame/jlfzgband_6227/jlfzgband_6227_14257.apk', 'newwindow')
+				})
+				$(".checkUp").attr("src", './images_pc/sgDownLoadIcon.png');
+				$(".sm").attr("src", './images_pc/sgDownLoadIcon1.png');
+			} else if (pathName == 'sm') { //神马大搜
+				var cnzz_protocol = (("https:" == document.location.protocol) ? "https://" : "http://");
+				document.write(unescape("%3Cspan id='cnzz_stat_icon_1277858865'%3E%3C/span%3E%3Cscript src='" + cnzz_protocol +
+					"s4.cnzz.com/z_stat.php%3Fid%3D1277858865%26show%3Dpic1' type='text/javascript'%3E%3C/script%3E"));
+				//下载链接方法
+				$(".iosAppDown").on("click", function() {
+					window.open('http://uri6.com/tkio/uaaENra', 'newwindow')
+				});
+				$(".androidAppDown").on("click", function() {
+					window.open('https://down.520cai.net/sdkgame/jlfzgband_6227/jlfzgband_6227_14258.apk', 'newwindow')
+				})
+				$(".checkUp").attr("src", './images_pc/smDownLoadIcon.png');
+				$(".sm").attr("src", './images_pc/smDownLoadIcon1.png');
+			} else if (pathName == 'sll') { //360大搜
+				var cnzz_protocol = (("https:" == document.location.protocol) ? "https://" : "http://");
+				document.write(unescape("%3Cspan id='cnzz_stat_icon_1277858869'%3E%3C/span%3E%3Cscript src='" + cnzz_protocol +
+					"s9.cnzz.com/z_stat.php%3Fid%3D1277858869%26show%3Dpic1' type='text/javascript'%3E%3C/script%3E"));
+				//下载链接方法
+				$(".iosAppDown").on("click", function() {
+					window.open('http://uri6.com/tkio/7JZrAza', 'newwindow')
+				});
+				$(".androidAppDown").on("click", function() {
+					window.open('https://down.520cai.net/sdkgame/jlfzgband_6227/jlfzgband_6227_14259.apk', 'newwindow')
+				})
+				$(".checkUp").attr("src", './images_pc/360DownLoadIcon.png');
+				$(".sm").attr("src", './images_pc/360DownLoadIcon1.png');
+			} else {
+				var cnzz_protocol = (("https:" == document.location.protocol) ? "https://" : "http://");
+				document.write(unescape("%3Cspan id='cnzz_stat_icon_1277846861'%3E%3C/span%3E%3Cscript src='" + cnzz_protocol +
+					"s5.cnzz.com/z_stat.php%3Fid%3D1277846861%26show%3Dpic1' type='text/javascript'%3E%3C/script%3E"));
+				//下载链接方法
+				$(".iosAppDown").on("click", function() {
+					window.open('https://apps.apple.com/cn/app/id1325971805', 'newwindow')
+				});
+				$(".androidAppDown").on("click", function() {
+					window.open('https://down.520cai.net/sdkgame/jlfzgband_6227/jlfzgband_6227.apk', 'newwindow')
+				})
+				$(".checkUp").attr("src", './images_pc/checkUp_join.png');
+				$(".sm").attr("src", './images_pc/sm.png');
+			}
+		</script>
+	</body>
+</html>

@@ -1,0 +1,170 @@
+<!doctype html>
+<html lang="en" xmlns:wb="http://open.weibo.com/wb">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="Description" content="《巨龙法则》是一款西方魔幻题材3DMMORPG手游，精美的地图场景，恢弘的欧式建筑，全新的魔幻剧情，酣畅淋漓的厮杀体验，开启次时代魔幻冒险之旅。360度广阔无垠地域空间，无束缚的自由驰骋，激情澎湃的厮杀竞技，热血狂飙的PK对战，随心所欲的养成体系以及畅通高效的交互沟通，全面构筑起史诗西方魔幻大世界。黑暗尚未散去，光明即将到来，战斗号角已经吹响，唤醒你沉睡的灵魂，激发你内心躁动，英雄集结，为荣耀与权力而战！" />
+		<meta name="keywords" content="巨龙法则、巨龙法则官网、巨龙法则下载、巨龙法则手游、巨龙法则手游官网、巨龙法则安卓下载、巨龙法则iOS下载、巨龙法则OL、巨龙法则手游下载、巨龙法则礼包、巨龙法则手游礼包" />
+		<title>《巨龙法则》手游官方网站-西方魔幻巨龙MMO-争霸巨龙世界</title>
+		<link rel="shortcut icon" href="images/icon.png">
+		<link href="./style/index.css" rel="stylesheet">
+		<link href="./style/guide.css" rel="stylesheet">
+		<script src="./js/jquery.js"></script>
+		<script src="https://tjs.sjs.sinajs.cn/open/api/js/wb.js" type="text/javascript" charset="utf-8"></script>
+		<script>
+			// 用于PC端跳转移动端
+			! function() {
+				function o(o, n) {
+					var e = new RegExp("(?:&|/?)" + n + "=([^&$]+)").exec(o);
+					return e ? e[1] : ""
+				}
+				1 == /iphone|android|ipod/i.test(navigator.userAgent.toLowerCase()) && "mobile" != o(location.search, "from") && (
+					location.href = "https://jl.52win.com/indexWapGuide.html")
+			}();
+		</script>
+	</head>
+	<body>
+		<div class="mainBox posRel">
+			<img src="guideImg/1.png" alt="">
+			<img src="guideImg/2.png" alt="">
+			<img src="guideImg/3.png" alt="">
+			<img src="guideImg/4.png" alt="">
+			<img src="guideImg/intoIndex.png" alt="" class="intoIndexIcon posAbs">
+		</div>
+		<!-- //侧边栏 -->
+		<div id="rightBox" class="posFix mid">
+			<div class="posRel wh">
+				<img src="./guideImg/intoIndex.png" alt="" class="yuyueIcon intoIndexIcon download">
+				<img src="./guideImg/weChatBg.png" alt="" class="weChatBg">
+				<img src="./guideImg/baidutieba.png" alt="" class="baidutieba iosAppDown">
+				<img src="./guideImg/qqIcon.png" alt="" class="qqIcon androidAppDown">
+				<img src="./guideImg/outIcon.png" alt="" class="outIcon posAbs mid hide">
+				<img src="./guideImg/leaverIcon.png" alt="" class="leaverIcon posAbs mid">
+				<em class="backTopBox posAbs cen"></em>
+			</div>
+		</div>
+		<!-- //侧边栏 -->
+		<!-- 清风底部 -->
+		<footer>
+			<!-- <div class="footer-row helper">
+				<a href="http://www.520cai.com/home.php/Index/News/aboutus/id/1" target="_blank">关于我们</a>
+				<span class="dwCommonFooter__split">|</span>
+				<a href="http://www.520cai.com/home.php/Index/News/aboutus/id/2" target="_blank">商务合作</a>
+				<span class="dwCommonFooter__split">|</span>
+				<a href="http://www.520cai.com/home.php/Index/News/aboutus/id/4" target="_blank">联系我们</a>
+				<span class="dwCommonFooter__split">|</span>
+				<a href="http://www.520cai.com/home.php/Index/Index/custody" target="_blank">家长监护</a>
+			</div> -->
+			<div class="footer-row">
+				<p>版权所有：武汉极游控科技有限公司 </p>
+			</div>
+			<div class="footer-row">
+				<a target="_blank" href="javascript:;">网络文化经营许可证：鄂网文 【2018】5264 148号 </a>
+
+			</div>
+			<div class="footer-row">
+				<a target="_blank" href="javascript:;">经营许可证编号:鄂B2-20190050</a>
+				<a>互联网ICP备案：鄂ICP备18007936号-2</a>
+			</div>
+			<div class="footer-row">
+				<p>抵制不良游戏，拒绝盗版游戏。注意自我保护，谨防受骗上当。适度游戏益脑，沉迷游戏伤身。合理安排时间，享受健康生活。</p>
+			</div>
+		</footer>
+		<!-- 清风底部 -->
+		<script>
+			$(function() {
+				//当点击跳转链接后，回到页面顶部位置
+				$(".backTopBox").click(function() {
+					if ($('html').scrollTop()) {
+						$('html').animate({
+							scrollTop: 0
+						}, 1000);
+						return false;
+					}
+					$('body').animate({
+						scrollTop: 0
+					}, 1000);
+					return false;
+				});
+
+				//关闭右侧弹窗
+				$(".leaverIcon").on("click", function() {
+					$("#rightBox").animate({
+						right: "-8.5%"
+					}, 1000);
+					$("#rightBox").find(".outIcon").show();
+					$("#rightBox").find(".leaverIcon").hide();
+				})
+
+				//点击进入官网进入官网
+				$(".intoIndexIcon").on("click", function() {
+					window.location.href = 'https://jl.52win.com/indexPC.html'
+				})
+
+				//打开右侧弹窗
+				$(".outIcon").on("click", function() {
+					$("#rightBox").animate({
+						right: "0%"
+					}, 1000);
+					$("#rightBox").find(".outIcon").hide();
+					$("#rightBox").find(".leaverIcon").show();
+				})
+
+				//下载链接方法
+				$(".iosAppDown").on("click", function() {
+					window.open('https://apps.apple.com/cn/app/id1325971805', 'newwindow')
+				});
+				$(".androidAppDown").on("click", function() {
+					window.open('https://down.520cai.net/sdkgame/jlfzgband_6227/jlfzgband_6227.apk', 'newwindow')
+				})
+
+			})
+		</script>
+		<script type="text/javascript">
+			var locationHref = window.location.href;
+			var locationPathname = window.location.pathname;
+			var pathName = locationPathname.split('/')[1];
+			// console.log(locationHref, locationPathname, pathName);
+			if (pathName == 'dypz') { //dypz
+				var cnzz_protocol = (("https:" == document.location.protocol) ? "https://" : "http://");
+				document.write(unescape("%3Cspan id='cnzz_stat_icon_1277855749'%3E%3C/span%3E%3Cscript src='" + cnzz_protocol +
+					"v1.cnzz.com/z_stat.php%3Fid%3D1277855749%26show%3Dpic1' type='text/javascript'%3E%3C/script%3E"));
+			} else if (pathName == 'dydr') { //dydr
+				var cnzz_protocol = (("https:" == document.location.protocol) ? "https://" : "http://");
+				document.write(unescape("%3Cspan id='cnzz_stat_icon_1277855789'%3E%3C/span%3E%3Cscript src='" + cnzz_protocol +
+					"s4.cnzz.com/z_stat.php%3Fid%3D1277855789%26show%3Dpic1' type='text/javascript'%3E%3C/script%3E"));
+			} else if (pathName == 'dyld') { //dyld
+				var cnzz_protocol = (("https:" == document.location.protocol) ? "https://" : "http://");
+				document.write(unescape("%3Cspan id='cnzz_stat_icon_1277855805'%3E%3C/span%3E%3Cscript src='" + cnzz_protocol +
+					"v1.cnzz.com/z_stat.php%3Fid%3D1277855805%26show%3Dpic1' type='text/javascript'%3E%3C/script%3E"));
+			} else if (pathName == 'dysy') { //dysy
+				var cnzz_protocol = (("https:" == document.location.protocol) ? "https://" : "http://");
+				document.write(unescape("%3Cspan id='cnzz_stat_icon_1277855810'%3E%3C/span%3E%3Cscript src='" + cnzz_protocol +
+					"v1.cnzz.com/z_stat.php%3Fid%3D1277855810%26show%3Dpic1' type='text/javascript'%3E%3C/script%3E"));
+			} else if (pathName == 'dyyg') { //dyyg
+				var cnzz_protocol = (("https:" == document.location.protocol) ? "https://" : "http://");
+				document.write(unescape("%3Cspan id='cnzz_stat_icon_1277900328'%3E%3C/span%3E%3Cscript src='" + cnzz_protocol +
+					"v1.cnzz.com/z_stat.php%3Fid%3D1277900328%26show%3Dpic1' type='text/javascript'%3E%3C/script%3E"));
+			} else if (pathName == 'bd') { //百度大搜
+				var cnzz_protocol = (("https:" == document.location.protocol) ? "https://" : "http://");
+				document.write(unescape("%3Cspan id='cnzz_stat_icon_1277858857'%3E%3C/span%3E%3Cscript src='" + cnzz_protocol +
+					"s4.cnzz.com/z_stat.php%3Fid%3D1277858857%26show%3Dpic1' type='text/javascript'%3E%3C/script%3E"));
+			} else if (pathName == 'sg') { //搜狗大搜
+				var cnzz_protocol = (("https:" == document.location.protocol) ? "https://" : "http://");
+				document.write(unescape("%3Cspan id='cnzz_stat_icon_1277858861'%3E%3C/span%3E%3Cscript src='" + cnzz_protocol +
+					"s4.cnzz.com/z_stat.php%3Fid%3D1277858861%26show%3Dpic1' type='text/javascript'%3E%3C/script%3E"));
+			} else if (pathName == 'sm') { //神马大搜
+				var cnzz_protocol = (("https:" == document.location.protocol) ? "https://" : "http://");
+				document.write(unescape("%3Cspan id='cnzz_stat_icon_1277858865'%3E%3C/span%3E%3Cscript src='" + cnzz_protocol +
+					"s4.cnzz.com/z_stat.php%3Fid%3D1277858865%26show%3Dpic1' type='text/javascript'%3E%3C/script%3E"));
+			} else if (pathName == 'sll') { //360大搜
+				var cnzz_protocol = (("https:" == document.location.protocol) ? "https://" : "http://");
+				document.write(unescape("%3Cspan id='cnzz_stat_icon_1277858869'%3E%3C/span%3E%3Cscript src='" + cnzz_protocol +
+					"s9.cnzz.com/z_stat.php%3Fid%3D1277858869%26show%3Dpic1' type='text/javascript'%3E%3C/script%3E"));
+			} else {
+				var cnzz_protocol = (("https:" == document.location.protocol) ? "https://" : "http://");
+				document.write(unescape("%3Cspan id='cnzz_stat_icon_1277902024'%3E%3C/span%3E%3Cscript src='" + cnzz_protocol +
+					"s9.cnzz.com/z_stat.php%3Fid%3D1277902024%26show%3Dpic1' type='text/javascript'%3E%3C/script%3E"))
+			}
+		</script>
+	</body>
+</html>

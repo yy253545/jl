@@ -1,0 +1,31 @@
+body {
+	line-height: 0;
+}
+
+#rightBox {
+	opacity: 1;
+	background: url(../guideImg/yuyueBg.png) no-repeat;
+	-webkit-background-size: 100%;
+	-o-background-size: 100%;
+	background-position: center 0;
+}
+
+.mainBox img {
+	width: 100%;
+	height: auto;
+	margin: 0;
+	padding: 0;
+	border: none;
+}
+
+.mainBox .intoIndexIcon {
+	width: 10%;
+	height: auto;
+	top: 2%;
+	right: 22%;
+	cursor: pointer;
+}
+
+#rightBox .yuyueIcon {
+	visibility: visible;
+}
