@@ -1,0 +1,711 @@
+<!DOCTYPE html>
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd ">
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+		<meta name="viewport" content="width=device-width,minimum-scale=1,maximum-scale=1,initial-scale=1.0,user-scalable=no" />
+		<meta name="apple-mobile-web-app-capable" content="yes" />
+		<meta name="full-screen" content="true" />
+		<meta name="screen-orientation" content="portrait" />
+		<meta name="x5-fullscreen" content="true" />
+		<meta name="360-fullscreen" content="true" />
+		<meta name="format-detection" content="telephone=no">
+		<meta name="keywords" content="巨龙法则、巨龙法则官网、巨龙法则下载、巨龙法则手游、巨龙法则手游官网、巨龙法则安卓下载、巨龙法则iOS下载、巨龙法则OL、巨龙法则手游下载、巨龙法则礼包、巨龙法则手游礼包" />
+		<title>《巨龙法则》手游官方网站-西方魔幻巨龙MMO-争霸巨龙世界</title>
+		<link rel="shortcut icon" href="images/icon.png">
+		<script src="js/jquery_1.7.2.min.js"></script>
+		<script src="js/addtohomescreen.js"></script>
+		<link rel="stylesheet" href="css/swiper.min.css">
+		<link href="css/index.css" rel="stylesheet" type="text/css" />
+	</head>
+	<body>
+
+		<script>
+			/* 浏览器自适应 */
+!function(){var htmlWidth=document.documentElement.clientWidth||document.body.clientWidth;var htmlDom=document.getElementsByTagName('html')[0];if($("body").width()>=750){htmlDom.style.fontSize=75+'px'}else{htmlDom.style.fontSize=htmlWidth/10+'px'}window.addEventListener('resize',function(){var htmlWidth=document.documentElement.clientWidth||document.body.clientWidth;if($("body").width()>=750){htmlDom.style.fontSize=75+'px'}else{htmlDom.style.fontSize=htmlWidth/10+'px'}},true)}();
+</script>
+		<div class="maskBox posFix hide"></div>
+		<img src="img/wxEwmIcon.png" alt="" class="wxEwmIcon posFix cenMid hide">
+		<div class="windowblack"></div>
+		<div class="wraper">
+			<!-- 导航 -->
+			<div class="nav">
+				<a href="javascript:show('window-down')" class="btn-a-b"></a>
+				<a href="javascript:;" class="btnOther" style="display: none;"></a>
+			</div>
+			</a>
+			<!-- 导航展开 -->
+			<!-- 头部 -->
+			<div class="header">
+
+				<div href="javascript:;" class="play" data-videourl="./mp4/index.mp4"></div>
+				<div class="zb">
+				</div>
+				<div class="light"></div>
+				<div class="btn-box cen">
+					<a href="javascript:show('window-down')" class="btn-a"></a>
+					<a href="javascript:;" class="btnOther" style="display: none;"></a>
+					<!-- <a href="javascript:show('window-yy')" class="btn-b">立即预约</a> -->
+				</div>
+			</div>
+			<!-- 新闻轮播 -->
+			<div class="part-one">
+				<div class=" swiper-container swiper-container-initialized swiper-container-horizontal new_list">
+					<div class="swiper-wrapper swipe">
+						<div class="swiper-slide swiper-slide-active">
+							<li><a href="activity_web/all/content_08_09.html"><img src="img/2.jpg" alt=""></a></li>
+						</div>
+						<div class="swiper-slide swiper-slide-active">
+							<li><a href="activity_web/all/content_1_3.html"><img src="img/1.png" alt=""></a></li>
+						</div>
+						<div class="swiper-slide">
+							<li><a href="activity_web/all/content_1_5.html"><img src="img/3.png" alt=""></a></li>
+						</div>
+						<div class="swiper-slide">
+							<li><a href="activity_web/all/content_1_6.html"><img src="img/4.png" alt=""></a></li>
+						</div>
+					</div>
+					<!-- Add Pagination -->
+					<div class="swiper-pagination swiper-pagination-bullets">
+						<span class="swiper-pagination-bullet swiper-pagination-bullet-active"></span>
+						<span class="swiper-pagination-bullet"></span>
+						<span class="swiper-pagination-bullet"></span>
+						<span class="swiper-pagination-bullet"></span>
+					</div>
+					<span class="swiper-notification" aria-live="assertive" aria-atomic="true"></span>
+				</div>
+			</div>
+
+			<!-- 新闻公告：文字列表 -->
+			<div class="wrapp">
+				<div class="part-two">
+					<div class="tab-menu tab-news">
+						<ul>
+							<li class="selected">全部</li>
+							<li>新闻</li>
+							<li>活动</li>
+							<li>公告</li>
+							<li>攻略</li>
+						</ul>
+					</div>
+					<div class="tab-box">
+						<div class="select-box">
+							<!-- 全部 begin -->
+							<ul class="news-list">
+								<li><a href="activity_web/all/content_08_09.html">【新闻】巨龙出没 一起盘他 《巨龙法则》抖音挑战赛火爆开启 </a><span>08-09</span></li>
+								<li><a href="activity_web/all/content_1_3.html">【新闻】殿堂级3DMMO魔幻手游《巨龙法则》</a><span>06-23</span></li>
+								<li><a href="activity_web/all/content_1_15.html">【活动】《巨龙法则》时装秀维京篇</a><span>06-17</span></li>
+								<li><a href="activity_web/all/content_1_4.html">【新闻】《巨龙法则》即将开启，携龙一战改变世界吧！</a><span>06-15</span></li>
+								<li><a href="activity_web/all/content_1_5.html">【新闻】亡灵游侠弓箭技能大揭秘！《巨龙法则》3大主角介绍--亡灵游侠</a><span>06-04</span></li>
+							</ul>
+							<!-- 全部 end -->
+						</div>
+						<div class="select-box hide">
+							<!-- 新闻 begin -->
+							<ul class="news-list">
+								<li><a href="activity_web/all/content_08_09.html">【新闻】巨龙出没 一起盘他 《巨龙法则》抖音挑战赛火爆开启 </a><span>08-09</span></li>
+								<li><a href="activity_web/all/content_1_3.html"><i>【新闻】</i>殿堂级3DMMO魔幻手游《巨龙法则》</a><span>06-23</span></li>
+								<li><a href="activity_web/all/content_1_4.html"><i>【新闻】</i>《巨龙法则》即将开启，携龙一战改变世界吧！</a><span>06-15</span></li>
+								<li><a href="activity_web/all/content_1_5.html"><i>【新闻】</i>亡灵游侠弓箭技能大揭秘！《巨龙法则》3大主角介绍--亡灵游侠</a><span>06-04</span></li>
+								<li><a href="activity_web/all/content_1_6.html"><i>【新闻】</i>《巨龙法则》全开放主城原画曝光 带你见证恢弘魔幻大陆</a><span>05-28</span></li>
+							</ul>
+							<!-- 新闻 end -->
+						</div>
+						<div class="select-box hide">
+							<!-- 活动 begin -->
+							<ul class="news-list">
+								<li><span>06/17</span><a href="activity_web/all/content_1_15.html"><i>【活动】</i>《巨龙法则》时装秀维京篇</a></li>
+							</ul>
+							<!-- 活动 end -->
+						</div>
+						<div class="select-box hide">
+							<!-- 公告 begin -->
+							<ul class="news-list">
+
+							</ul>
+							<!-- 公告 end -->
+						</div>
+					</div>
+				</div>
+				<div class="more-a">
+					<a href="list.html">更多</a>
+				</div>
+				<div class="btn-box downLoadIcon">
+					<a href="javascript:show('window-down')" class="btn-a"></a>
+					<!-- <a href="javascript:show('window-yy')" class="btn-b">立即预约</a> -->
+				</div>
+			</div>
+			<!-- 视频播放 -->
+			<div class="part-three" id="story">
+				<div class="title-box title-b center_box"></div>
+				<div class="story_bunner">
+					<ul class="vido">
+						<li><img src="img/new_1.png" alt="" data-videourl="./video/v1.mp4"></li>
+						<li><img src="img/new_2.png" alt="" data-videourl="./video/v2.mp4"></li>
+						<li><img src="img/new_3.png" alt="" data-videourl="./video/v3.mp4"></li>
+						<li><img src="img/new_4.png" alt="" data-videourl="./video/v4.mp4"></li>
+						<li><img src="img/new_5.png" alt="" data-videourl="./video/v5.mp4"></li>
+					</ul>
+				</div>
+
+			</div>
+			<div class="btn-box downLoadIcon">
+				<a href="javascript:show('window-down')" class="btn-a"></a>
+				<!-- <a href="javascript:show('window-yy')" class="btn-b">立即预约</a> -->
+			</div>
+			<div id="game_video" class="views">
+				<div>
+					<video controls width="400"></video>
+					<b>×</b>
+				</div>
+			</div>
+			<!-- 职业介绍 -->
+			<div class="part-four">
+				<div class="title_zero title_zero_box"></div>
+				<!-- 选项tab -->
+				<div class="role-tab" id="SubShow_02">
+					<li id="Label_2_01">
+						<img src="img/0_58.png" alt="" class="zero_light">
+						<img src="img/魔法王子.png" alt="" class="zero_name">
+					</li>
+					<li id="Label_2_02">
+						<img src="img/zero_1.png" alt="" class="zero_light">
+						<img src="img/亡灵游侠.png" alt="" class="zero_name">
+					</li>
+					<li id="Label_2_03">
+						<img src="img/zero_9.png" alt="" class="zero_light">
+						<img src="img/维京战士.png" alt="" class="zero_name">
+					</li>
+				</div>
+				<div class="role-box">
+					<!-- 魔法王子 -->
+					<div class="role-part">
+						<img src="img/top.png" alt="" class="top">
+						<img src="img/fashi.png" alt="" class="striker no">
+						<img src="img/gaigaigai.png" alt="" class="striker ons bx-controls-direction">
+						<img src="img/foot.png" alt="" class="foot">
+						<i class="kind bx-controls-direction"><img src="img/zero_8.png" name="0" alt="" class="d"></i>
+						<i class="kind  f "><img src="img/1拷贝.png" alt=""></i>
+						<img src="img/组21.png" alt="" class="massage">
+
+						<i class="kind_tow" id='b2'><img src="img/zero_5.png" name="1" alt="" class="d"></i>
+						<i class="kind_tow bx-controls-direction p"><img src="img/2拷贝.png" alt=""></i>
+
+					</div>
+					<!-- 亡灵游侠 -->
+					<div class="role-part" style="display:none;">
+						<img src="img/top.png" alt="" class="top">
+						<img src="img/texiao.png" alt="" class="striker no">
+						<img src="img/hongnv.png" alt="" class="striker ons bx-controls-direction">
+						<img src="img/foot.png" alt="" class="foot">
+						<img src="img/foot.png" alt="" class="foot">
+						<i class="kind "><img src="img/zero_3.png" alt="" class="d"></i>
+						<i class="kind f"><img src="img/2拷贝3.png" alt=""></i>
+
+						<img src="img/组23.png" alt="" class="massage">
+
+						<i class="kind_tow"><img src="img/zero_7.png" alt="" class="d"></i>
+						<i class="kind_tow bx-controls-direction p"><img src="img/1拷贝3.png" alt=""></i>
+
+					</div>
+					<!-- 维京战士 -->
+					<div class="role-part" style="display:none;">
+						<img src="img/top.png" alt="" class="top">
+						<img src="img/weijinren_05.png" alt="" class="striker no">
+						<img src="img/fjkfjhf-恢复的.png" alt="" class="striker ons bx-controls-direction">
+						<img src="img/foot.png" alt="" class="foot">
+						<i class="kind"><img src="img/zero_4.png" alt="" class="d"></i>
+						<i class="kind f"><img src="img/2拷贝2.png" alt=""></i>
+						<img src="img/组22.png" alt="" class="massage">
+						<i class="kind_tow"><img src="img/zero_6.png" alt="" class="d"></i>
+						<i class="kind_tow bx-controls-direction p"><img src="img/1拷贝2.png" alt=""></i>
+					</div>
+				</div>
+			</div>
+			<div class="btn-box downLoadIcon">
+				<a href="javascript:show('window-down')" class="btn-a"></a>
+				<!-- <a href="javascript:show('window-yy')" class="btn-b">立即预约</a> -->
+			</div>
+			<!-- 游戏轮播 -->
+			<div class="game_features">
+				<div class="title_features title-b"></div>
+				<div class="game_box">
+
+					<div class="swiper-button-next" tabindex="0" role="button" aria-label="Next slide"></div>
+					<div class="swiper-button-prev" tabindex="0" role="button" aria-label="Previous slide"></div>
+					<div class="swiper-container swiper-container-coverflow swiper-container-3d swiper-container-initialized swiper-container-horizontal games"
+					 style="cursor: -webkit-grab;">
+						<div class="swiper-wrapper" style="transition-duration: 0ms;transform: translate3d(-867.5px, 0px, 0px);perspective-origin: 1050px 50%;">
+							<div class="swiper-slide" class="one"><img src="img/5t-1.png" alt="">
+								<div class="swiper-slide-shadow-right" style="opacity: 0; transition-duration: 0ms;"></div>
+							</div>
+							<div class="swiper-slide" class="tow"><img src="img/5t-2.png" alt="">
+								<div class="swiper-slide-shadow-left" style="opacity: 2; transition-duration: 0ms;"></div>
+								<div class="swiper-slide-shadow-right" style="opacity: 0; transition-duration: 0ms;"></div>
+							</div>
+							<div class="swiper-slide swiper-slide-prev" class="three"><img src="img/5t-3.png" alt="">
+								<div class="swiper-slide-shadow-left" style="opacity: 1; transition-duration: 0ms;"></div>
+								<div class="swiper-slide-shadow-right" style="opacity: 0; transition-duration: 0ms;"></div>
+							</div>
+							<div class="swiper-slide swiper-slide-active" class="four"><img src="img/5t-4.png" alt="">
+								<div class="swiper-slide-shadow-left" style="opacity: 0; transition-duration: 0ms;"></div>
+								<div class="swiper-slide-shadow-right" style="opacity: 0; transition-duration: 0ms;"></div>
+							</div>
+							<div class="swiper-slide swiper-slide-next" class="five"><img src="img/5t-5.png" alt="">
+								<div class="swiper-slide-shadow-left" style="opacity: 0; transition-duration: 0ms;"></div>
+								<div class="swiper-slide-shadow-right" style="opacity: 1; transition-duration: 0ms;"></div>
+							</div>
+						</div>
+						<!-- Add Pagination -->
+						<div class="swiper-pagination swiper-pagination-bullets"><span class="swiper-pagination-bullet"></span><span
+							 class="swiper-pagination-bullet"></span><span class="swiper-pagination-bullet"></span><span class="swiper-pagination-bullet swiper-pagination-bullet-active"></span><span
+							 class="swiper-pagination-bullet"></span><span class="swiper-pagination-bullet"></span><span class="swiper-pagination-bullet"></span><span
+							 class="swiper-pagination-bullet"></span><span class="swiper-pagination-bullet"></span><span class="swiper-pagination-bullet"></span></div>
+						<span class="swiper-notification" aria-live="assertive" aria-atomic="true"></span>
+					</div>
+				</div>
+				<div class="btn-box downLoadIcon">
+					<a href="javascript:show('window-down')" class="btn-a"></a>
+					<a href="javascript:;" class="btnOther" style="display: none;"></a>
+					<!-- <a href="javascript:show('window-yy')" class="btn-b">立即预约</a> -->
+				</div>
+			</div>
+
+		</div>
+		<!-- 底部信息 -->
+		<div class="foots">
+			<div class="title_foots title-b"></div>
+			<div class="share">
+
+				<li>
+					<a href="javascript:;" id="weiboBtn">
+						<img src="img/1_wx.png" alt="">
+					</a>
+				</li>
+				<li>
+					<a id="shareBtn" href="https://weibo.com/u/7253974955">
+						<img src="img/2_wb.png" target="_blank" alt="">
+					</a>
+				</li>
+				<li>
+					<a href="https://tieba.baidu.com/f?kw=%E5%B7%A8%E9%BE%99%E6%B3%95%E5%88%99">
+						<img src="img/3_tb.png" alt="">
+					</a>
+				</li>
+				<li>
+					<a href="http://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey?url=http://jl.52win.com&amp;title=%E3%80%8A%E5%B7%A8%E9%BE%99%E6%B3%95%E5%88%99%E3%80%8B%E6%89%8B%E6%B8%B8%E5%AE%98%E6%96%B9%E7%BD%91%E7%AB%99-%E8%A5%BF%E6%96%B9%E9%AD%94%E5%B9%BB%E5%B7%A8%E9%BE%99MMO-%E4%BA%89%E9%9C%B8%E5%B7%A8%E9%BE%99%E4%B8%96%E7%95%8C&amp;summary=西方魔幻巨龙MMO手游《巨龙法则》，【千名主播线上助阵】360度广阔无垠地域空间，全程高燃的战斗任务。 【软萌客服一对一定制化在线服务】遵从意志选择适合自己的职业，召唤灵魂的伙伴，集结更多的勇士，世界需要你的加入！"
+					 target="_blank" title="分享到QQ空间">
+						<img src="img/4_hy.png" alt="">
+					</a>
+				</li>
+			</div>
+			<!-- <button id="addToDesk">分享到桌面</button> -->
+			<footer>
+				<!-- <div class="footer-row helper">
+						<a href="http://www.520cai.com/home.php/Index/News/aboutus/id/1" target="_blank">关于我们</a>
+						<span class="dwCommonFooter__split">|</span>
+						<a href="http://www.520cai.com/home.php/Index/News/aboutus/id/2" target="_blank">商务合作</a>
+						<span class="dwCommonFooter__split">|</span>
+						<a href="http://www.520cai.com/home.php/Index/News/aboutus/id/4" target="_blank">联系我们</a>
+						<span class="dwCommonFooter__split">|</span>
+						<a href="http://www.520cai.com/home.php/Index/Index/custody" target="_blank">家长监护</a>
+					</div> -->
+				<div class="footer-row">
+					<p>版权所有：武汉极游控科技有限公司 </p>
+				</div>
+				<div class="footer-row">
+					<a target="_blank" href="javascript:;">网络文化经营许可证：鄂网文 【2018】5264 148号 </a>
+				</div>
+				<div class="footer-row">
+					<a target="_blank" href="javascript:;">经营许可证编号:鄂B2-20190050</a>
+				</div>
+				<div class="footer-row">
+					<a>互联网ICP备案：鄂ICP备18007936号-2</a>
+				</div>
+				<div class="footer-row">
+					<p>抵制不良游戏，拒绝盗版游戏。注意自我保护，谨防受骗上当。</p>
+				</div>
+				<div class="footer-row">
+					<p>适度游戏益脑，沉迷游戏伤身。合理安排时间，享受健康生活。</p>
+				</div>
+			</footer>
+		</div>
+		<!-- 下载弹窗 -->
+		<div class="window window-down">
+			<a href="javascript:closeWindow()" class="close" title="关闭"></a>
+			<div class="down-bit"></div>
+			<ul>
+				<li><a href="javascript:;" class="down-android androidAppDown" title="安卓下载"></a></li>
+				<li class="dyygIos" style="display: none;"><a href="javascript:;" class="down-ios" title="iOS下载"></a></li>
+				<li class="defaultIos" style=""><a href="javascript:;" class="iosAppDown" title="iOS下载"></a></li>
+			</ul>
+		</div>
+
+		<!-- 预约弹窗 -->
+		<div class="window window-yuyue window-yy">
+			<a href="javascript:closeWindow()" class="close" title="关闭"></a>
+			<div class="check-box">
+				<a href="javascript:void(0);" data-check="apple" class="ios on"><i></i>iOS</a>
+				<a href="javascript:void(0);" data-check="android" class="android"><i></i>Android</a>
+			</div>
+			<ul>
+				<li><input name="" type="text" placeholder="请输入手机号码"></li>
+				<li class="yzm-li">
+					<!-- <a href="javascript:void(0);" class="yzm yzm-on">获取验证码</a> --><a href="javascript:void(0);" class="yzm yzm-off">52s后重发</a><input
+					 name="" type="text" placeholder="请输入验证码"></li>
+			</ul>
+			<a href="javascript:show('window-yy-repeat')" class="btn-yy" title="立即预约"></a>
+		</div>
+
+		<!-- 预约成功 -->
+		<div class="window window-yuyue window-yy-ok">
+			<a href="javascript:closeWindow()" class="close" title="关闭"></a>
+			<strong>预约成功！</strong>
+			<p>礼包将在公测开启时发放，<br>敬请期待~ </p>
+			<a href="javascript:closeWindow()" class="btn-yes" title="确定"></a>
+		</div>
+
+		<!-- 重复预约 -->
+		<div class="window window-yuyue window-yy-repeat">
+			<a href="javascript:closeWindow()" class="close" title="关闭"></a>
+			<div class="repeat">您的手机号已参加过预约活动，若未参加过请检查手机号是否正确哦~</div>
+			<a href="javascript:closeWindow()" class="btn-yes" title="确定"></a>
+		</div>
+
+		<script type="text/javascript" src="js/jquery.bxslider.js"></script>
+		<script type="text/javascript" src="js/touchslider.dev.js"></script>
+		<script src="js/swiper.min.js"></script>
+		<script>
+			//PC端还是移动端
+			if (/Android|webOS|iPhone|iPad|BlackBerry/i.test(navigator.userAgent)) {} else {
+				window.location.href = 'indexPC.html'
+			}
+
+			$("#weiboBtn").on("click", function() {
+				$(".maskBox").show();
+				$(".wxEwmIcon").show();
+				$(".maskBox").on("click", function() {
+					$(".maskBox").hide();
+					$(".wxEwmIcon").hide();
+				})
+			})
+
+			// 系统选择
+			$(".ios").click(function() {
+				$(".android").removeClass("on");
+				$(this).addClass("on");
+			})
+			$(".android").click(function() {
+				$(".ios").removeClass("on");
+				$(this).addClass("on");
+			})
+
+			// 弹出框
+			function show(tc) {
+				closeWindow();
+				$(".windowblack").height($("body").height()).show();
+				var h = $("." + tc).height();
+				var mt = (h / 2);
+				$("." + tc).css({
+					'margin-top': -mt,
+					"": ""
+				}).show();
+			}
+
+			function closeWindow() {
+				$(".windowblack,.window").hide();
+			}
+
+			// 焦点图
+			$(document).ready(function() {
+				$('.slider1').bxSlider({
+					slideWidth: 500,
+					minSlides: 2,
+					maxSlides: 2,
+					slideMargin: 10
+				});
+			});
+
+			// 视频弹出
+			var $video = $("#game_video video");
+			$(".story_bunner ul li img,.play").click(function() {
+				$(".windowblack").show();
+				var videoURL = $(this).attr("data-videoURL");
+				if (typeof(videoURL) != "undefined") {
+					$video.attr("src", videoURL).parents("#game_video").slideDown(400).css("display", "table"); //更新url
+					$("#game_video video").attr("autoplay", "true"); //直接播放
+				}
+				return false
+			})
+			$video.next("b").on("click", function() {
+				$video.get(0).pause();
+				$video.parents("#game_video").slideUp(400);
+				$(".windowblack").hide();
+			})
+
+
+
+
+			var myVideo = document.getElementById("video-show");
+
+			function videoShow() {
+				var pageWidth = $("html").innerWidth(),
+					pageHeight = window.innerHeight;
+				$(".windowblack").show();
+				var vh = $("#video-show").height();
+				var vw = $("#video-show").width();
+				$("#video-show").css('margin-top', -vh / 2);
+			}
+
+			$('.iosAppDown').on("click", function() {
+				window.open('https://apps.apple.com/cn/app/id1325971805', 'newwindow')
+			})
+
+			$(".video-btn").click(function() {
+				$("#video-show").show();
+				myVideo.play();
+				videoShow();
+				// 关闭视频
+				myVideo.loop = false;
+				myVideo.addEventListener('ended', function() {
+					$(".windowblack,#video-show").hide();
+					myVideo.pause();
+				}, false);
+				$("#video-show").click(function() {
+					$(".windowblack,#video-show").hide();
+					myVideo.pause();
+				});
+			});
+
+			$(".vido li img").click(function() {
+				$(".windowblack").show()
+			})
+			$("b").click(function() {
+				$(".windowblack").hide()
+			})
+
+			function closeAll() {
+				myVideo.pause();
+				$(".windowblack,#video-show").hide();
+			}
+
+
+			/* 职业介绍 */
+			$(function() {
+				var all = true
+				var old = $.prototype.dome
+
+				var img = ["img/0_58.png", "img/0_93.png", "img/0_88.png"]
+				var i = 0;
+				var j = 0;
+				var k = 0;
+				var x = 0;
+				var img_log = ["img/zero_2.png", "img/zero_1.png", "img/zero_9.png"]
+				$(".role-tab li").click(function() {
+					for (let i = 0; i < $(".zero_light").length; i++) {
+						$(".zero_light").eq(i).attr("src", img_log[i])
+					}
+					$(this).find(".zero_light").attr("src", img[$(this).index()])
+					$(".role-box .role-part").eq($(this).index()).show().siblings().hide()
+					if (k = 1) {
+						i = 0
+					} else {
+						i = 1
+					}
+				})
+				$(".role-part .kind_tow").click(function() {
+					if (i == 0) {
+						$(this).parents(".role-part").find(".no").addClass("noe")
+						$(this).parents(".role-part").find(".ons").addClass("d").removeClass("noe")
+						$(this).addClass("bx-controls-direction").siblings().removeClass("bx-controls-direction").siblings(".f").addClass(
+							"bx-controls-direction")
+						i = 1
+						if (i == 1) {
+							$(".f").unbind();
+						}
+					}
+					j = 1
+					k = 1
+				})
+				$(".role-part .kind").click(function() {
+					// alert($(this).attr("f"))
+					if (j == 1) {
+						$(this).parents(".role-part").find(".no").addClass("d").removeClass("noe")
+						$(this).parents(".role-part").find(".ons").addClass("noe")
+						$(this).addClass("bx-controls-direction").siblings().removeClass("bx-controls-direction").siblings(".p").addClass(
+							"bx-controls-direction")
+						j = 1
+						if (j == 1) {
+							$(".p").unbind();
+						}
+						i = 0
+					}
+				})
+			})
+
+			// 新闻舌签
+			var $divNews = $(".tab-menu ul li");
+			$divNews.click(function() {
+				$(this).addClass("selected").siblings().removeClass("selected");
+				var index = $divNews.index(this);
+				var menuTop = $(".tab-menu").position().top;
+				$(".tab-box .select-box").eq(index).show().siblings().hide();
+			})
+
+			// 导航
+			$("#menuBtn").bind("click", function() {
+				var e = $(this);
+				if (e.hasClass("menu-btn-active")) {
+					e.removeClass("menu-btn-active");
+					$(".menu").animate({
+						"top": "-50rem"
+					}, 300);
+				} else {
+					e.addClass("menu-btn-active");
+					$(".menu").animate({
+						"top": "0"
+					}, 300);
+				}
+			});
+
+			var swiper = new Swiper('.new_list', {
+				autoplay: true,
+				loop: true,
+				pagination: {
+					el: '.swiper-pagination',
+				},
+			});
+
+			var swiper = new Swiper('.games', {
+				effect: 'coverflow',
+				grabCursor: true,
+				initialSlide: 0,
+				centeredSlides: true,
+				slidesPerView: 'auto',
+				loop: true,
+				autoplay: true,
+				coverflowEffect: {
+					rotate: 60,
+					stretch: 100,
+					depth: 100,
+					modifier: 1,
+					slideShadows: true,
+				},
+				pagination: {
+					el: '.swiper-pagination',
+				},
+				navigation: {
+					nextEl: '.swiper-button-next',
+					prevEl: '.swiper-button-prev',
+				},
+			});
+			// 滑入顶部
+			$(".title_foots").click(function() {
+				var timer = null;
+				cancelAnimationFrame(timer);
+				timer = requestAnimationFrame(function fn() {
+					var Top = document.body.scrollTop || document.documentElement.scrollTop;
+					if (Top > 0) {
+						scrollTo(0, Top - 50);
+						timer = requestAnimationFrame(fn);
+					} else {
+						cancelAnimationFrame(timer);
+					}
+				});
+			})
+			window.onscroll = function(e) {
+				var e = e || window.event;
+				var top = document.documentElement.scrollTop || document.body.scrollTop;
+				var indexHeader = $(".header").height()
+				var indexNew = $(".part-one").height()
+				var indexTab = $(".wrapp").height()
+				var indexVideo = $(".part-three").height()
+				var indexZero = $(".part-four").height()
+				var indexGame = $(".game_features").height()
+
+				if (top > (indexHeader) * 0.3) {
+					$(".part-one").addClass("part-one_IMG")
+				}
+				if (top > (indexHeader + indexNew) * 0.4) {
+					$(".part-two").addClass("part-tow_Img")
+				}
+				if (top > (indexHeader + indexNew + indexTab + indexVideo) * 0.5) {
+					$(".story_bunner ul li").eq(0).addClass('video_Img');
+					setTimeout(function() {
+						$(".story_bunner ul li").eq(1).addClass('video_Img');
+					}, 200)
+					setTimeout(function() {
+						$(".story_bunner ul li").eq(2).addClass('video_Img');
+					}, 400)
+					setTimeout(function() {
+						$(".story_bunner ul li").eq(3).addClass('video_Img');
+					}, 600)
+					setTimeout(function() {
+						$(".story_bunner ul li").eq(4).addClass('video_Img');
+					}, 800)
+				}
+				if (top > (indexHeader + indexNew + indexTab + indexVideo + indexZero + indexGame) * 0.85) {
+					$(".share li").eq(0).addClass('share_Img');
+					setTimeout(function() {
+						$(".share li").eq(1).addClass('share_Img');
+					}, 300)
+					setTimeout(function() {
+						$(".share li").eq(2).addClass('share_Img');
+					}, 700)
+					setTimeout(function() {
+						$(".share li").eq(3).addClass('share_Img');
+					}, 1100)
+				}
+			}
+			setTimeout(function() {
+				$(".zb").addClass("zbImg");
+
+			}, 500);
+			setTimeout(function() {
+				$(".light").addClass("light_Img")
+			}, 1500);
+			$('.header').height($(window).height())
+
+			function createDesktop(sUrl, sName) {
+				try {
+					var fso = new ActiveXObject("Scripting.FileSystemObject");
+					var shell = new ActiveXObject("WScript.Shell");
+					var folderPath = shell.SpecialFolders("Desktop"); //获取桌面本地桌面地址
+					if (!fso.FolderExists(folderPath)) {
+						fso.CreateFolder(folderPath);
+					}
+					if (!fso.FileExists(folderPath + "//" + sName + ".lnk")) {
+						//在指定的文件夹下创建名为sName的快捷方式
+						var shortLink = shell.CreateShortcut(folderPath + "//" + sName + ".lnk"); //相应的描述信息
+						shortLink.Description = "shortcut for " + sName; //快捷方式指向的链接
+						shortLink.TargetPath = sUrl; //激活链接并且窗口最大化
+						shortLink.WindowStyle = 3;
+						shortLink.Save();
+						alert('桌面快捷方式创建成功！');
+					}
+				} catch (e) {
+					alert(e);
+				}
+			}
+
+			function toDesktop() {
+				// var e = getDomainName(); //路径
+				var e = 'jl.52win.com';
+				try {
+					var n = new ActiveXObject("WScript.Shell"),
+						t = n.CreateShortcut(n.SpecialFolders("Desktop") + "jl.52win.com");
+					t.TargetPath = e,
+						t.Save()
+				} catch (i) {
+					alert("快捷方式创建失败，浏览器不支持！")
+				}
+			}
+
+			$("#addToDesk").on("click", function() {
+				createDesktop('https://jl.52win.com', '巨龙法则')
+			})
+		</script>
+		<script src="./js/cnzz.js"></script>
+	</body>
+</html>

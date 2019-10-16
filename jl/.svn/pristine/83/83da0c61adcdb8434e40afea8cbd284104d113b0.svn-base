@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+    <meta name="viewport" content="width=device-width,minimum-scale=1,maximum-scale=1,initial-scale=1.0,user-scalable=no"/>
+    <meta name="apple-mobile-web-app-capable" content="yes"/>
+    <meta name="full-screen" content="true"/>
+    <meta name="screen-orientation" content="portrait"/>
+    <meta name="x5-fullscreen" content="true"/>
+    <meta name="360-fullscreen" content="true"/>
+    <meta name="format-detection" content="telephone=no">
+    <title>《巨龙法则》人物立绘首曝光</title>
+	<meta name="keywords" content="巨龙法则、巨龙法则官网、巨龙法则下载、巨龙法则手游、巨龙法则手游官网、巨龙法则安卓下载、巨龙法则iOS下载、巨龙法则OL、巨龙法则手游下载、巨龙法则礼包、巨龙法则手游礼包" />
+	<link rel="shortcut icon" href="../../images/icon.png">
+    <script src="../../js/jquery_1.7.2.min.js"></script>
+    <link href="../../css/list.css" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" href="../../css/storyline.css">
+</head>
+<body>
+<script>
+/* 浏览器自适应 */
+!function(){var htmlWidth=document.documentElement.clientWidth||document.body.clientWidth;var htmlDom=document.getElementsByTagName('html')[0];if($("body").width()>=750){htmlDom.style.fontSize=75+'px'}else{htmlDom.style.fontSize=htmlWidth/10+'px'}window.addEventListener('resize',function(){var htmlWidth=document.documentElement.clientWidth||document.body.clientWidth;if($("body").width()>=750){htmlDom.style.fontSize=75+'px'}else{htmlDom.style.fontSize=htmlWidth/10+'px'}},true)}();
+</script>
+
+<div class="lm-title">
+    <a href="javascript:history.back(-1)" class="back-bit"></a>资讯详情
+</div>
+
+<!-- 导航 -->
+<div class="nav">
+    <a href="../../index.html"><img src="../../img/icon.png" class="icon" alt=""></a>
+    <div class="title">
+        <h1>巨龙法则</h1>
+        <strong>《巨龙法则》人物立绘首曝光</strong>
+    </div>
+   
+</div>
+<!-- 导航展开 -->
+
+
+<!-- 内容 -->
+<div class="content">
+    
+    <div class="zw-content">
+        <!-- 正文嵌入内容 begin -->
+        <div class="center">《巨龙法则》角色立绘今日曝光！人族、精灵、亡灵、维京四大种族亮相，体验原汁原味的魔幻世界！</div>
+        <div>&nbsp;</div>
+        <div>在人类、龙族、维京、精灵等种族构成的大世界，讲述了自龙神陨落后的几万年间，龙族内部的争斗，以及各种族参与的“复仇之怒”和“魔法之光”两大阵营之间的征战。 在《巨龙法则》游戏中，将人类、龙族、维京、精灵的人物精细刻画，堪比魔兽世界！让我们一起鉴赏下吧！</div>
+       
+        <div class="center">
+            &nbsp; &nbsp; &nbsp;&nbsp; <img src="uploads/16/1.png"><br>
+            <br>
+            <strong>☆</strong><strong>维京战士</strong><strong>·</strong><strong>巨斧</strong><strong>☆</strong><br>
+            <br>
+            &nbsp; &nbsp; &nbsp; &nbsp; <img src="uploads/16/2.png"><br>
+            <br>
+            <strong>&nbsp;☆</strong><strong>维京战士</strong><strong>·</strong><strong>剑盾</strong><strong>☆</strong><br>
+            <br>
+            &nbsp; &nbsp; &nbsp;&nbsp; <img src="uploads/16/3.png"><br>
+            <br>
+            <strong>☆</strong><strong>亡灵游侠</strong><strong>·</strong><strong>双刀</strong><strong>☆</strong><br>
+            <br>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <img src="uploads/16/4.png"><br>
+            <br>
+            <strong>&nbsp;☆</strong><strong>亡灵游侠</strong><strong>·</strong><strong>弓手</strong><strong>☆</strong><br>
+            <br>
+            &nbsp; &nbsp; &nbsp; &nbsp; <img src="uploads/16/5.png"><br>
+            <br>
+            <strong>&nbsp;☆</strong><strong>人族</strong><strong>·</strong><strong>法杖</strong><strong>☆</strong><br>
+            &nbsp;<br>
+            &nbsp; &nbsp; &nbsp;&nbsp; <img src="uploads/16/6.png"><br>
+            <br>
+            <strong>☆</strong><strong>人族</strong><strong>·</strong><strong>法剑</strong><strong>☆</strong><br>
+            <br>
+            &nbsp; &nbsp; &nbsp; &nbsp; <img src="uploads/16/7.png"><br>
+            &nbsp;
+        </div>
+        <!-- 正文嵌入 end -->
+    </div>
+</div>
+
+<script type="text/javascript">
+// 导航
+$("#menuBtn").bind("click",function(){
+    var e = $(this);
+    if (e.hasClass("menu-btn-active")) {
+        e.removeClass("menu-btn-active");
+        $(".menu").animate({"top": "-50rem"}, 300);
+    } else {
+        e.addClass("menu-btn-active");
+        $(".menu").animate({"top": "0rem"}, 300);
+    }
+});
+// 纠正内容页显示
+$(".zw-content span,.zw-content div,.zw-content img").removeAttr("style");
+$(".zw-content img").css({"width":"100%","height":"auto"});
+$(".zw-content strong").css({"font-size":".45rem"});
+</script>
+		<script src="../../js/cnzz.js"></script>
+</body>
+</html>

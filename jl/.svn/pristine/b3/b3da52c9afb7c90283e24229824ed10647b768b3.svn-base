@@ -1,0 +1,255 @@
+<!doctype html>
+<html lang="cn">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="Description" content="《巨龙法则》是一款西方魔幻题材3DMMORPG手游，精美的地图场景，恢弘的欧式建筑，全新的魔幻剧情，酣畅淋漓的厮杀体验，开启次时代魔幻冒险之旅。360度广阔无垠地域空间，无束缚的自由驰骋，激情澎湃的厮杀竞技，热血狂飙的PK对战，随心所欲的养成体系以及畅通高效的交互沟通，全面构筑起史诗西方魔幻大世界。黑暗尚未散去，光明即将到来，战斗号角已经吹响，唤醒你沉睡的灵魂，激发你内心躁动，英雄集结，为荣耀与权力而战！" />
+		<meta name="keywords" content="巨龙法则、巨龙法则官网、巨龙法则下载、巨龙法则手游、巨龙法则手游官网、巨龙法则安卓下载、巨龙法则iOS下载、巨龙法则OL、巨龙法则手游下载、巨龙法则礼包、巨龙法则手游礼包" />
+		<title>《巨龙法则》手游官方网站-西方魔幻巨龙MMO-争霸巨龙世界</title>
+		<link rel="shortcut icon" href="../images/icon.png">
+		<script src="../js/jquery.js"></script>
+		<link rel="stylesheet" type="text/css" href="../style/tese.css">
+		<link rel="stylesheet" type="text/css" href="../style/swiper.min.css">
+		<link rel="stylesheet" type="text/css" href="../style/layui.css">
+	</head>
+	<body>
+		<div class="black"></div>
+		<div id="all_box">
+
+			<!-- 边框 -->
+			<div class="box-bor">
+				<div class="left-top"></div>
+				<div class="right-top"></div>
+				<div class="left-bottom"></div>
+				<div class="right-bottom"></div>
+				<div class="top-bor"></div>
+				<div class="left-bor"></div>
+				<div class="right-bor"></div>
+				<div class="bottom-bor"></div>
+			</div>
+
+			<!-- 菜单 -->
+			<div class="menu-box">
+				<ul>
+					<li><a href="../indexPC.html">首页</a></li>
+					<li><a href="../tese/index.html">游戏特色</a></li>
+					<li><a href="../news/index.html">游戏资料</a></li>
+					<!-- <li><a href="#">联系我们</a></li> -->
+				</ul>
+				<div class="share-in">
+					<img src="../images_pc/ts_share.png" class="share">
+					<a href="../indexPC.html"><img src="../images_pc/enter.png" class="enter"></a>
+				</div>
+			</div>
+			<div id="share-box" class="share-box">
+				<ul>
+					<!-- 微博分享 -->
+					<li><a id="shareBtn" href="javascript:void(0)" target="_blank"><img src="../images_pc/weibo.png" alt=""></a></li>
+					<!-- QQ空间分享 -->
+					<li>
+						<script type="text/javascript">
+							document.write(['<a href="http://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey?url=' +
+								'http://jl.52win.com', '&title=', encodeURIComponent(document.title), '&summary=',
+								'巨龙法则，11月精英首测！邪龙苏醒，不一样的MMO!',
+								'" target="_blank"  title="分享到QQ空间"><img src="../images_pc/qqzone.png" alt="分享到QQ空间" /><\/a>'
+							].join(''));
+						</script>
+					</li>
+					<!-- 微信分享扫码进入公众号 -->
+					<li><img src="../images_pc/wechat.png" alt="" class="wechat_mouseover"><img src="../images_pc/checkUp_share.png"
+						 alt="" class="wechat"></li>
+				</ul>
+			</div>
+
+
+			<!-- 中间部分 -->
+			<div class="slogan">
+				<div class="top-center">
+					<img src="" class="top">
+					<img src="../images_pc/ts_circle.png" style="" class="Rotation">
+					<img src="../images_pc/ts_play.png" class="play" data-videourl="../video/v1.mp4">
+				</div>
+				<div class="title">
+					<img src="../images_pc/ts_wakeup.png">
+					<img src="../images_pc/ts_bottom.png">
+				</div>
+			</div>
+			<!-- 舌签 -->
+
+			<div class="tab-box">
+				<ul>
+					<li class="selected"></li>
+					<li></li>
+					<li></li>
+					<li></li>
+					<li></li>
+				</ul>
+			</div>
+
+			<div class="video-box">
+				<div class="video-list">
+					<video class="video-player" preload="auto" autoplay="autoplay" loop="loop" width="" height="">
+						<source src="../video/1.mp4" type="video/mp4">
+					</video>
+				</div>
+				<div class="video-list hide">
+					<video class="video-player" preload="auto" autoplay="autoplay" loop="loop" width="" height="">
+						<source src="../video/2.mp4" type="video/mp4">
+					</video>
+				</div>
+				<div class="video-list hide">
+					<video class="video-player" preload="auto" autoplay="autoplay" loop="loop" width="" height="">
+						<source src="../video/3.mp4" type="video/mp4">
+					</video>
+				</div>
+				<div class="video-list hide">
+					<video class="video-player" preload="auto" autoplay="autoplay" loop="loop" width="" height="">
+						<source src="../video/4.mp4" type="video/mp4">
+					</video>
+				</div>
+				<div class="video-list hide">
+					<video class="video-player" preload="auto" autoplay="autoplay" loop="loop" width="" height="">
+						<source src="../video/5.mp4" type="video/mp4">
+					</video>
+				</div>
+			</div>
+
+			<!--视频弹出one-->
+			<div id="game_video" class="views">
+				<div>
+					<video controls></video>
+					<b>×</b>
+				</div>
+			</div>
+			
+			<!-- 联系我们模块 -->
+			<div id="contactBox" class="posFix" style="display: block;right: 100px;">
+				<div class="wh posRel">
+					<div class="contactBox posAbs">
+						<div class="weixinBox posRel contactItemBox">
+							<img src="../contactImg/bunner_18.png" class="posAbs icon cenMid">
+							<img src="../contactImg/bunner_15.png" class="posAbs mid ewmIcon hide">
+						</div>
+						<img src="../contactImg/bunner_09.png" class="lineIcon">
+						<div class="qqBox posRel contactItemBox">
+							<img src="../contactImg/bunner_21.png" class="posAbs icon cenMid">
+							<img src="../contactImg/bunner_06.png" class="posAbs mid ewmIcon hide">
+						</div>
+						<img src="../contactImg/bunner_09.png" class="lineIcon">
+						<a class="kefuBox posRel contactItemBox" target="_blank" href="http://wpa.qq.com/msgrd?v=3&uin=891011215&site=891011215&menu=yes">
+							<img src="../contactImg/bunner_24.png" class="posAbs icon cenMid">
+						</a>
+						<img src="../contactImg/bunner_09.png" class="lineIcon">
+						<div class="backTopBox posRel contactItemBox" style="cursor: pointer;">
+							<img src="../contactImg/bunner_26.png" class="posAbs icon cenMid">
+						</div>
+					</div>
+				</div>
+			</div>
+			
+			<!-- 联系我们模块 -->
+
+			<script>
+				$(".contactItemBox").mouseover(function() {
+					$(this).find(".ewmIcon").show();
+					$(this).siblings().find(".ewmIcon").hide();
+				});
+				$(".ewmIcon").mouseleave(function() {
+					$(this).hide();
+				});
+				//微博分享
+				function weiboShare() {
+					var wb_shareBtn = document.getElementById("shareBtn"),
+						wb_url = 'jl.52win.com', //获取当前页面地址，也可自定义例：wb_url = "http://liuyanzhao.com"
+						wb_appkey = "25612892", //你的app key
+						wb_title = "巨龙法则，11月精英首测！邪龙苏醒，不一样的MMO! （分享自 @巨龙法则手游)", //默认输入框文字
+						wb_ralateUid = "巨龙法则手游", //微博id，获得你的用户名
+						// wb_pic = "http%3A%2F%2Fjlfz.youchaogame.com%2FPublic%2Fimages%2Fpicture.png",
+						wb_language = "zh_cn";
+					wb_shareBtn.setAttribute("href", "http://service.weibo.com/share/share.php?url=" + wb_url + "&appkey=" +
+						wb_appkey + "&title=" + wb_title + "&pic=" + wb_ralateUid + "&language=" +
+						wb_language + "");
+				}
+				weiboShare();
+
+				var $div_li = $(".tab-box ul li");
+				$div_li.click(function() {
+					$(this).addClass("selected").siblings().removeClass("selected");
+					var index = $div_li.index(this);
+					$(".video-box .video-list").eq(index).show().siblings().hide();
+					$(".play").attr({
+						"data-videourl": "../video/v" + (index + 1) + ".mp4"
+					});
+				}).hover(function() {
+					$(this).addClass("hover");
+				}, function() {
+					$(this).removeClass("hover");
+				})
+
+				// 取窗口宽高
+				var pageWidth = window.innerWidth,
+					pageHeight = window.innerHeight;
+				if (typeof pageWidth != "number") {
+					if (document.compatMode == "CSS1Compat") {
+						pageWidth = document.documentElement.clientWidth;
+						pageHeight = document.documentElement.clientHeight;
+					} else {
+						pageWidth = document.body.clientWidth;
+						pageHeight = document.body.clientHeight;
+					}
+
+				}
+				$(".black,.box-bor,body").css({
+					"width": pageWidth,
+					"height": pageHeight
+				});
+				$(".top-bor,.bottom-bor").css({
+					"width": pageWidth - 160 + "px"
+				});
+				$(".left-bor,.right-bor").css({
+					"height": pageHeight - 160 + "px"
+				});
+
+
+				//分享按钮
+				$('.share').mouseover(function() {
+					$('#share-box').slideDown('1000');
+				});
+				$('#share-box ul li').click(function() {
+					$('#share-box').slideUp('1000');
+				})
+
+				//鼠标移入微信分享按钮
+				$('.wechat_mouseover').mouseover(function() {
+					$('.wechat').show();
+				})
+				$('.wechat').mouseout(function() {
+					$('#share-box').slideUp('1000');
+					$('.wechat').hide();
+				})
+
+				//点击除分享区域外的地方，隐藏分享区域
+				$(document).click(function() {
+					$('#share-box').slideUp('1000');
+					$('.wechat').hide();
+				});
+				$("#share-box").click(function(event) {
+					event.stopPropagation();
+				});
+
+				//视频弹出one
+				var $video = $("#game_video video");
+				$(".top-center").on("click", ".play", function() {
+					var videoURL = $(this).attr("data-videoURL");
+					if (typeof(videoURL) != "undefined") {
+						$video.attr("src", videoURL).parents("#game_video").slideDown(400).css("display", "table"); //更新url
+						$("#game_video video").attr("autoplay", "true"); //直接播放
+					}
+					return false
+				})
+				$video.next("b").on("click", function() {
+					$video.get(0).pause();
+					$video.parents("#game_video").slideUp(400);
+				})
+			</script>
+	</body>
+</html>

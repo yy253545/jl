@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+    <meta name="viewport" content="width=device-width,minimum-scale=1,maximum-scale=1,initial-scale=1.0,user-scalable=no"/>
+    <meta name="apple-mobile-web-app-capable" content="yes"/>
+    <meta name="full-screen" content="true"/>
+    <meta name="screen-orientation" content="portrait"/>
+    <meta name="x5-fullscreen" content="true"/>
+    <meta name="360-fullscreen" content="true"/>
+    <meta name="format-detection" content="telephone=no">
+    <title>巨型生物出没注意！探秘巨龙法则的恢弘世界</title>
+	<meta name="keywords" content="巨龙法则、巨龙法则官网、巨龙法则下载、巨龙法则手游、巨龙法则手游官网、巨龙法则安卓下载、巨龙法则iOS下载、巨龙法则OL、巨龙法则手游下载、巨龙法则礼包、巨龙法则手游礼包" />
+	<link rel="shortcut icon" href="../../images/icon.png">
+    <script src="../../js/jquery_1.7.2.min.js"></script>
+    <link href="../../css/list.css" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" href="../../css/storyline.css">
+</head>
+<body>
+<script>
+/* 浏览器自适应 */
+!function(){var htmlWidth=document.documentElement.clientWidth||document.body.clientWidth;var htmlDom=document.getElementsByTagName('html')[0];if($("body").width()>=750){htmlDom.style.fontSize=75+'px'}else{htmlDom.style.fontSize=htmlWidth/10+'px'}window.addEventListener('resize',function(){var htmlWidth=document.documentElement.clientWidth||document.body.clientWidth;if($("body").width()>=750){htmlDom.style.fontSize=75+'px'}else{htmlDom.style.fontSize=htmlWidth/10+'px'}},true)}();
+</script>
+
+<div class="lm-title">
+    <a href="javascript:history.back(-1)" class="back-bit"></a>资讯详情
+</div>
+
+<!-- 导航 -->
+<div class="nav">
+    <a href="../../index.html"><img src="../../img/icon.png" class="icon" alt=""></a>
+    <div class="title">
+        <h1>巨龙法则</h1>
+        <strong>巨型生物出没注意！探秘巨龙法则的恢弘世界</strong>
+    </div>
+
+</div>
+<!-- 导航展开 -->
+
+
+<!-- 内容 -->
+<div class="content">
+    
+    <div class="zw-content">
+        <!-- 正文嵌入内容 begin -->
+        <div>嗨，大家好~ 今天我又来为大家带来魔幻MMORPG手游《巨龙法则》的游戏内容爆料啦！</div>
+        <div>&nbsp;</div>
+        <div>在之前大家能看到的游戏内容资料中，相信大家一定知道，巨龙法则的世界中，巨龙是占据在力量顶点的上古物种。</div>
+        <div>&nbsp;</div>
+        <div class="center"><img src="uploads/25/1.jpg"style="width: 554px; height: 312px;"></div>
+        <div>&nbsp;</div>
+        <div>而最能让玩家直观感受到巨龙强大压制力的地方，就是巨龙那有如山峰一般庞大的身躯。站在巨龙的面前，那种压迫感有如实质。不过，远古巨龙并不是这款游戏中唯一能够让玩家感受到震撼的生物。<br>在巨龙法则中，有着寒冰之地、沙漠荒野、上古遗迹等众多风格不同环境迥异的地图，而在这些完全不同的地图中，除了有各类属性不同的敌人和首领之外，还有着很多隐藏在迷雾之中的上古物种在伺机而动。</div>
+        <div>&nbsp;</div>
+        <div class="center"><img src="uploads/25/2.jpg"style="width: 554px; height: 312px;"></div>
+        <div>&nbsp;</div>
+        <div>在巨龙世界中流传着众多的传说，传说中每个地图中似乎都有巨大的生物出没，目击者声称那些生物似乎为了某种目的一直徘徊在那里，不时从迷雾中现身展现它庞大的躯体，他们与巨龙之间是否有着某种联系？他们究竟是众神的杰作还是邪龙军团的阴谋？这背后的真相正等待着有缘人去探寻…</div>
+        <div>&nbsp;</div>
+        <div class="center"><img src="uploads/25/3.jpg"style="width: 554px; height: 312px;"></div>
+        <div>&nbsp;</div>
+        <div class="center"><img src="uploads/25/4.jpg"style="width: 554px; height: 312px;"></div>
+        <!-- 正文嵌入 end -->
+    </div>
+</div>
+
+
+<script type="text/javascript">
+// 导航
+$("#menuBtn").bind("click",function(){
+    var e = $(this);
+    if (e.hasClass("menu-btn-active")) {
+        e.removeClass("menu-btn-active");
+        $(".menu").animate({"top": "-50rem"}, 300);
+    } else {
+        e.addClass("menu-btn-active");
+        $(".menu").animate({"top": "0rem"}, 300);
+    }
+});
+// 纠正内容页显示
+$(".zw-content span,.zw-content div,.zw-content img").removeAttr("style");
+$(".zw-content img").css({"width":"100%","height":"auto"});
+$(".zw-content strong").css({"font-size":".45rem"});
+</script>
+		<script src="../../js/cnzz.js"></script>
+</body>
+</html>

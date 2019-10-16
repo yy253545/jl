@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta http-equiv="Content-type" content="text/html; charset=utf-8" />
+		<meta name="Description" content="《巨龙法则》是一款西方魔幻题材3DMMORPG手游，精美的地图场景，恢弘的欧式建筑，全新的魔幻剧情，酣畅淋漓的厮杀体验，开启次时代魔幻冒险之旅。360度广阔无垠地域空间，无束缚的自由驰骋，激情澎湃的厮杀竞技，热血狂飙的PK对战，随心所欲的养成体系以及畅通高效的交互沟通，全面构筑起史诗西方魔幻大世界。黑暗尚未散去，光明即将到来，战斗号角已经吹响，唤醒你沉睡的灵魂，激发你内心躁动，英雄集结，为荣耀与权力而战！" />
+		<meta name="keywords" content="巨龙法则、巨龙法则官网、巨龙法则下载、巨龙法则手游、巨龙法则手游官网、巨龙法则安卓下载、巨龙法则iOS下载、巨龙法则OL、巨龙法则手游下载、巨龙法则礼包、巨龙法则手游礼包" />
+		<title>《巨龙法则》手游官方网站-西方魔幻巨龙MMO-争霸巨龙世界</title>
+		<link rel="shortcut icon" href="../images/icon.png">
+		<link href="../style/style2.css" type="text/css" rel="stylesheet">
+		<script type="text/javascript" src="../js/jquery-1.3.2.min.js"></script>
+		<script>
+			// 用于PC端跳转移动端
+			! function() {
+				function o(o, n) {
+					var e = new RegExp("(?:&|/?)" + n + "=([^&$]+)").exec(o);
+					return e ? e[1] : ""
+				}
+				1 == /iphone|android|ipod/i.test(navigator.userAgent.toLowerCase()) && "mobile" != o(location.search, "from") && (
+					location.href = "../index.html")
+			}();
+		</script>
+	</head>
+	<body>
+		<!-- 顶导 begin -->
+		<!-- <script src='http://mt.sina.com/plus/mytag_js.php?aid=15' language='javascript'></script> -->
+		<!-- 顶导 end -->
+
+		<div class="windowblack" onclick="closeAll();"></div>
+		<!-- 头部 -->
+		<div class="header">
+			<!-- 背景flash begin -->
+			<div class="back-flash"></div>
+			<!-- 背景flash begin -->
+			<a href="../indexPC.html" class="game-logo" title="巨龙法则：起源"></a>
+			<a href="../indexPC.html" class="go-index" title="巨龙法则：起源"></a>
+			<div class="yuyue-box">
+				<!-- <a href="javascript:show('window')" class="yuyue-btn"></a> -->
+				<a href="javascript:show('down-window')" class="yuyue-btn"></a>
+				<p>已有<i id="user-num">879568</i>位勇士预约</p>
+				<p class="f20">（注:本次预约活动为公测专属活动，预约奖励将在公测开启时发放!）</p>
+			</div>
+			<a href="" class="play-btn"></a>
+		</div>
+
+
+		<!-- 解锁列表 -->
+		<!-- <div class="part-line"></div> -->
+		<div class="part-a">
+			<div class="title-a"></div>
+			<ul>
+				<li><img src="../images_wel/list_1.png" alt=""></li>
+				<li><img src="../images_wel/list_2.png" alt=""></li>
+				<li><img src="../images_wel/list_3.png" alt=""></li>
+				<li><img src="../images_wel/list_4.png" alt=""></li>
+				<li><img src="../images_wel/list_5.png" alt=""></li>
+				<li><img src="../images_wel/list_6.png" alt=""></li>
+			</ul>
+			<p>预约活动截止至公测开启当日,预约礼包将通过短信发送。<br>实物奖励将从预约玩家中随机抽取，中奖名单公示在官网网站、微博、微信等官网渠道。</p>
+		</div>
+
+
+		<!-- 轮播图 -->
+		<div class="part-line"></div>
+		<div class="part-b">
+			<div class="games_i_focus">
+				<!-- 大图 -->
+				<div class="gif_bimg_i" id="gif_bimg_i">
+					<a href="javascript:void(0)"><img src="" style="FILTER: revealTrans(duration=1,transition=23);" galleryimg="no"
+						 alt="" /></a>
+				</div>
+				<div class="gif_bimg_bg" id="gif_bimg_bg">
+					<div id="gif_simg_bl" class="focus_left"></div>
+					<div class="gif_simg" id="gif_simg_g">
+						<div class="gif_simg_g">
+							<!-- 小图 -->
+						</div>
+					</div>
+					<div id="gif_simg_br" class="focus_right"></div>
+				</div>
+			</div>
+			<script src="../js/focus.js"></script>
+			<script type="text/javascript">
+				var FocusPic_01 = new FocusPic("gif_bimg_i", "gif_simg_g", "gif_simg_h", "gif_simg_t");
+				FocusPic_01.TimeOut = 5000; //自动播放间隔
+				FocusPic_01.Add('../images_wel/734x370_1.jpg', '../images_wel/170x100_1.jpg');
+				FocusPic_01.Add('../images_wel/734x370_2.jpg', '../images_wel/170x100_2.jpg');
+				FocusPic_01.Add('../images_wel/734x370_3.jpg', '../images_wel/170x100_3.jpg');
+				FocusPic_01.Add('../images_wel/734x370_4.jpg', '../images_wel/170x100_4.jpg');
+				FocusPic_01.Add('../images_wel/734x370_5.jpg', '../images_wel/170x100_5.jpg');
+				FocusPic_01.Add('../images_wel/734x370_6.jpg', '../images_wel/170x100_6.jpg');
+				FocusPic_01.begin();
+			</script>
+			<!-- 焦点图 end -->
+		</div>
+
+		<!-- 预约成功 -->
+		<div class="window-ok wok-a">
+			<div class="w-photo"></div>
+			<div class="w-text">
+				<strong>预约成功！</strong>
+				<p>礼包将在公测开启时发放，敬请期待~</p>
+			</div>
+			<a href="javascript:closeAll()" class="w-submit" title="确认">确认</a>
+		</div>
+
+		<!-- 预约重复 -->
+		<div class="window-ok wok-b">
+			<div class="w-photo"></div>
+			<div class="w-text">
+				<p>您的手机号已参加过预约活动，若未参加过请检查手机号是否正确哦~~</p>
+			</div>
+			<a href="javascript:closeAll()" class="w-submit" title="确认">确认</a>
+		</div>
+		<!-- 弹窗 -->
+		<div class="window">
+			<a class="close" href="javascript:closeAll()" title="关闭"></a>
+			<div class="check-box">
+				<a href="javascript:void(0);" data-check="apple" class="ios on"><i></i>iOS</a>
+				<a href="javascript:void(0);" data-check="android" class="android"><i></i>安卓</a>
+			</div>
+			<ul>
+				<li><input name="" type="text" class="phone-box m-box" value="请输入手机号码" onfocus="if(value=='请输入手机号码') {value=''}"
+					 onblur="if (value=='') {value='请输入手机号码'}"></li>
+
+				<li class="mt-30"><a href="javascript:void(0);" class="yzm">发送验证码</a><input name="" type="text" class="phone-box yzm-box"
+					 value="请输入验证码" onfocus="if(value=='请输入验证码') {value=''}" onblur="if (value=='') {value='请输入验证码'}"></li>
+			</ul>
+			<a href="javascript:void(0);" class="submit-bit" title="确认">确认</a>
+			<p>注:本次预约活动为公测专属活动，预约奖励将在公测开启时发放!</p>
+		</div>
+		<!-- 侧边栏 -->
+		<!-- <div id="right" class="float-down">
+    <img src="../images_wel/right.png" alt="" class="right_img">
+    <img src="../images_wel/x.png" alt="" class="x_img"> -->
+		<!-- 如果是敬请期待状态需要把li的样式加上"on" -->
+		<!-- <div class="btn-box">
+    <ul>
+        <li><a href="http://mg.games.sina.com.cn/kjava/gamecenter/package/506038/506038_2_118610001001.apk" class="andriod">Andriod下载</a><span>敬请期待</span></li>
+        <li class="no"><a href="javascript:void(0)" class="app">App Store下载</a><span>敬请期待</span></li>
+    </ul>
+    </div>
+</div> -->
+
+		<div id="right" class="float-down">
+			<div class="btn-box">
+				<ul>
+					<li><a href="https://down.520cai.net/sdkgame/jlfzgband_6227/jlfzgband_6227.apk" class="andriod">Andriod下载</a><span>敬请期待</span></li>
+					<li><a href="https://apps.apple.com/cn/app/id1325971805" class="app">App Store下载</a><span>敬请期待</span></li>
+				</ul>
+			</div>
+		</div>
+		<!-- 2019/1/23 下载弹窗 增加 -->
+		<div class="down-window">
+			<a class="close" href="javascript:closeAll()" title="关闭"></a>
+			<a href="https://down.520cai.net/sdkgame/jlfzgband_6227/jlfzgband_6227.apk" title="安卓" class="ad"></a>
+			<a href="https://apps.apple.com/cn/app/id1325971805" title="iOS" class="ios"></a>
+		</div>
+		<!-- 浮动 -->
+		<div class="float-right">
+			<a href="javascript:show('window')" class="index-link" title="点击预约"></a>
+		</div>
+		<!-- 清风底部 -->
+		<footer>
+			<!-- <div class="footer-row helper">
+				<a href="http://www.520cai.com/home.php/Index/News/aboutus/id/1" target="_blank">关于我们</a>
+				<span class="dwCommonFooter__split">|</span>
+				<a href="http://www.520cai.com/home.php/Index/News/aboutus/id/2" target="_blank">商务合作</a>
+				<span class="dwCommonFooter__split">|</span>
+				<a href="http://www.520cai.com/home.php/Index/News/aboutus/id/4" target="_blank">联系我们</a>
+				<span class="dwCommonFooter__split">|</span>
+				<a href="http://www.520cai.com/home.php/Index/Index/custody" target="_blank">家长监护</a>
+			</div> -->
+			<div class="footer-row">
+				<p>版权所有：武汉极游控科技有限公司 </p>
+			</div>
+			<div class="footer-row">
+				<a target="_blank" href="javascript:;">网络文化经营许可证：鄂网文 【2018】5264 148号 </a>
+		
+			</div>
+			<div class="footer-row">
+				<a target="_blank" href="javascript:;">经营许可证编号:鄂B2-20190050</a>
+				<a>互联网ICP备案：鄂ICP备18007936号-2</a>
+				<!-- <a target="_blank" href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=42018502001468">
+					<img data-original="http://www.beian.gov.cn/img/ghs.png" src="http://www.beian.gov.cn/img/ghs.png" style="display: inline-block;">
+					鄂公网安备 42018502001468号
+				</a> -->
+			</div>
+			<div class="footer-row">
+				<p>抵制不良游戏，拒绝盗版游戏。注意自我保护，谨防受骗上当。适度游戏益脑，沉迷游戏伤身。合理安排时间，享受健康生活。</p>
+			</div>
+		</footer>
+		<!-- 清风底部 -->
+		<!-- 底 -->
+		<!-- <div class="trail">
+			<div class="trail-box">
+				<img src="../images_wel/sina_logo.png" class="logo" alt="新浪游戏">
+				<script src="http://mt.sina.com/templets/default/js/trail.js"></script>
+			</div>
+		</div> -->
+
+		<div class="right-back"></div>
+		<div class="left-back"></div>
+
+		<script>
+			/* 2018/11/19 add */
+			$(window).scroll(function() {
+				if ($(document).scrollTop() < 900) {
+					$(".float-down").css({
+						"position": "absolute",
+						"top": "960px"
+					});
+				} else {
+					$(".float-down").css({
+						"position": "fixed",
+						"top": "80px"
+					});
+				}
+			});
+
+			function ShowCountDown(year, month, day, hour, minute, second) {
+				var now = new Date();
+				var endDate = new Date(year, month - 1, day, hour, minute, second);
+				var allTime = endDate.getTime() - now.getTime();
+				if (allTime > 0) {
+					$(".float-down").hide();
+					$(".float-right").show();
+				} else {
+					$(".float-right").hide();
+					$(".float-down").show();
+				}
+			}
+			// 时间设定 2018,11,20,7,0,0
+			window.setInterval(function() {
+				ShowCountDown(2018, 12, 13, 8, 0, 0);
+			}, 100);
+
+			var book_url = encodeURIComponent('http://m.game.weibo.cn/notice/index/ltqy_bookpage_init');
+			$.get('/request.php?type=get&r_data=""&url=' + book_url, function(data) {
+				var m_data = JSON.parse(data);
+				if (m_data['num']) {
+					$("#user-num").html(m_data['num']);
+				}
+			});
+
+			// 弹出登录框
+			function show(w) {
+				closeAll();
+				$(".windowblack").height($("body").height()).show();
+				$("." + w).show();
+			}
+
+			function closeAll() {
+				// $(".windowblack,.window,.window-ok").hide();
+				$(".windowblack,.window,.window-ok,.x_img,.down-window").hide();
+			}
+
+			// 浮动
+			$(window).scroll(function() {
+				if ($(document).scrollTop() < 900) {
+					$(".float-right").css({
+						"position": "absolute",
+						"top": "960px"
+					});
+				} else {
+					$(".float-right").css({
+						"position": "fixed",
+						"top": "80px"
+					});
+
+				}
+			});
+		</script>
+
+	</body>
+</html>

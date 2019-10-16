@@ -1,0 +1,317 @@
+html,
+body {
+    width: 100%;
+    background: #ffffff;
+    -ms-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+}
+
+html,
+body,
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+div,
+span,
+header,
+footer,
+nav,
+article,
+aside,
+main,
+section,
+dd,
+ul,
+ol,
+li,
+a,
+img,
+i,
+em,
+strong,
+b,
+form,
+input,
+textarea,
+button {
+    display: block;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    font-style: normal;
+    text-decoration: none;
+    color: #333;
+    font-weight: normal;
+    font-family: "Microsoft Yahei";
+    -webkit-tap-highlight-color: transparent;
+    -webkit-font-smoothing: antialiased;
+    touch-action: pan-y;
+    -ms-touch-action: pan-y;
+    /* &:hover {
+        outline: none;
+    } */
+}
+
+
+/*定义滚动条高宽及背景 高宽分别对应横竖滚动条的尺寸*/
+
+::-webkit-scrollbar {
+    width: 0px;
+    height: 0px;
+    background-color: #F5F5F5;
+}
+
+
+/*定义滚动条轨道 内阴影+圆角*/
+
+::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 1px rgba(0, 0, 0, 0);
+    border-radius: 10px;
+    background-color: #F5F5F5;
+}
+
+
+/*定义滑块 内阴影+圆角*/
+
+::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, .3);
+    background-color: #555;
+}
+
+input[type="button"],
+input[type="submit"],
+input[type="search"],
+input[type="reset"] {
+    -webkit-appearance: none;
+}
+
+.wh {
+    width: 100%;
+    height: 100%;
+}
+
+.flex {
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+}
+
+.flexAro {
+    justify-content: space-around;
+    align-items: center;
+}
+
+.flexBet {
+    justify-content: space-between;
+    align-items: center;
+}
+
+.flexBetEnd {
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.flexSta {
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.flexEnd {
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.flexCen {
+    justify-content: center;
+    align-items: center;
+}
+
+.flexAroCol {
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-start;
+}
+
+.flexBetCol {
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.flexAroColCen {
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.flexEndColCen {
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.left {
+    float: left;
+}
+
+.right {
+    float: right;
+}
+
+.clear:after {
+    display: block;
+    content: "";
+    height: 0;
+    clear: both;
+    overflow: hidden;
+    visibility: hidden;
+}
+
+.clear {
+    zoom: 1;
+}
+
+.posRel {
+    position: relative;
+}
+
+.posAbs {
+    position: absolute;
+}
+
+.posFix {
+    position: fixed;
+}
+
+.cenMid {
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.cen {
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.mid {
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+
+/* 隐藏横向滚动条样式 */
+
+
+/* ::-webkit-scrollbar {
+    width: 0;
+    height: 0;
+    color: transparent;
+} */
+
+button::after {
+    border-radius: 0;
+    border: none;
+}
+
+button {
+    border-radius: 0;
+    border: none;
+}
+
+input::-webkit-input-placeholder {
+    color: #c2c1bf;
+}
+
+input::-moz-input-placeholder {
+    color: #c2c1bf;
+}
+
+input::-ms-input-placeholder {
+    color: #c2c1bf;
+}
+
+input {
+    border: none;
+    outline: none;
+}
+
+.opacity {
+    filter: alpha(opacity=50);
+}
+
+em,
+i {
+    font-style: normal;
+}
+
+input {
+    -webkit-appearance: none;
+}
+
+input:focus {
+    outline: 0;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+textarea {
+    resize: none;
+}
+
+img {
+    width: 100%;
+    vertical-align: middle;
+    border: 0;
+    max-width: 100%;
+    -webkit-tap-highlight-color: transparent
+}
+
+a {
+    text-decoration: none;
+    -webkit-tap-highlight-color: transparent;
+    color: #ffffff
+}
+
+
+/* //单行文字不换行显示省略号 */
+
+.ellipsis {
+    white-space: nowrap;
+    -o-text-overflow: ellipsis;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+
+.hide {
+    display: none !important;
+}
+
+.show {
+    display: block !important;
+}
+
+
+/* 块级元素水平居中 */
+
+.wrap {
+    margin: 0 auto;
+}
+
+
+/* 文字水平居中 */
+
+.tc {
+    text-align: center;
+}

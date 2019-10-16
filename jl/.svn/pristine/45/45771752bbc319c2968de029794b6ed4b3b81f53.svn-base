@@ -1,0 +1,313 @@
+<!doctype html>
+<html lang="cn">
+	<head>
+		<meta charset="UTF-8">
+		<title>巨龙出没 一起盘他 《巨龙法则》抖音挑战赛火爆开启 </title>
+		<meta name="keywords" content="巨龙法则、巨龙法则官网、巨龙法则下载、巨龙法则手游、巨龙法则手游官网、巨龙法则安卓下载、巨龙法则iOS下载、巨龙法则OL、巨龙法则手游下载、巨龙法则礼包、巨龙法则手游礼包" />
+		<link rel="shortcut icon" href="../../../images/icon.png">
+		<meta name="Description" content="《巨龙法则》是一款西方魔幻题材3DMMORPG手游，精美的地图场景，恢弘的欧式建筑，全新的魔幻剧情，酣畅淋漓的厮杀体验，开启次时代魔幻冒险之旅。360度广阔无垠地域空间，无束缚的自由驰骋，激情澎湃的厮杀竞技，热血狂飙的PK对战，随心所欲的养成体系以及畅通高效的交互沟通，全面构筑起史诗西方魔幻大世界。黑暗尚未散去，光明即将到来，战斗号角已经吹响，唤醒你沉睡的灵魂，激发你内心躁动，英雄集结，为荣耀与权力而战！" />
+		<link href="../../../style/index.css" rel="stylesheet">
+		<link rel="stylesheet" href="../../../style/swiper.min.css">
+		<script src="../../../js/jquery.js"></script>
+		<script src="../../../js/swiper.js"></script>
+		<script>
+			// 用于PC端跳转移动端
+			! function() {
+				function o(o, n) {
+					var e = new RegExp("(?:&|/?)" + n + "=([^&$]+)").exec(o);
+					return e ? e[1] : ""
+				}
+				1 == /iphone|android|ipod/i.test(navigator.userAgent.toLowerCase()) && "mobile" != o(location.search, "from") && (
+					location.href = "../../../index.html")
+			}();
+		</script>
+	</head>
+	<body>
+		<header>
+			<div class="center_box posRel">
+				<div class="header_right posAbs cenMid">
+					<ul class="nav flex flexBet">
+						<li class="flex flexAro"><a class="flex flexAro" href="../../../indexPC.html"><img src="../../../images_pc/indexIcon.png"
+								 alt=""></a></li>
+						<li class="active flex flexAro"><a class="flex flexAro" href="../../../news/index.html"><img src="../../../images_pc/newsIcon.png"
+								 alt=""></a></li>
+						<li class="flex flexAro"><a class="flex flexAro" href="../../../indexPC.html"><img style="height:100%;" src="../../../images_pc/lg.png"
+								 alt=""></a></li>
+						<li class="flex flexAro"><a class="flex flexAro" href="../../../indexPC.html#tese"><img src="../../../images_pc/teseIcon.png"
+								 alt=""></a></li>
+						<li class="flex flexAro"><a class="flex flexAro" href="../../../indexPC.html#video"><img src="../../../images_pc/videoIcon.png"
+								 alt=""></a></li>
+					</ul>
+				</div>
+				<div class="posAbs mid" style="right: 6%;height: 100%;width: 90px;">
+					<div class="posRel wh">
+						<img src="../../../images_pc/share.png" alt="" class="share posAbs cenMid">
+						<div id="share_box" class="hide">
+							<ul class="share_nav">
+								<!--微博分享-->
+								<li class="flex flexAro">
+									<a id="shareBtn" href="javascript:void(0)" target="_blank">
+										<img src="../../../images_pc/weibo.png" alt="">
+									</a>
+								</li>
+								<!--QQ空间分享-->
+								<li class="flex flexAro">
+									<script type="text/javascript">
+										document.write(['<a href="http://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey?url=' +
+											'http://jl.52win.com', , '&title=',
+											'西方魔幻巨龙MMO手游《巨龙法则》，【千名主播线上助阵】360度广阔无垠地域空间，全程高燃的战斗任务。 【软萌客服一对一定制化在线服务】遵从意志选择适合自己的职业，召唤灵魂的伙伴，集结更多的勇士，世界需要你的加入！',
+											'&summary=',
+											'',
+											'" target="_blank"  title="分享到QQ空间"><img src="../../../images_pc/qqzone.png" alt="分享到QQ空间" /></a>'
+										].join(''));
+									</script>
+								</li>
+								<!--微信分享扫码进入公众号-->
+								<li class="flex flexAro posRel">
+									<img src="../../../images_pc/wechat.png" alt="" class="wechat_mouseover">
+									<img src="../../../images_pc/checkUp_share.png" alt="" class="wechat posAbs mid">
+								</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+		</header>
+		<!--bunner-->
+		<div id="bunner">
+			<div class="center_box" style="position: relative;">
+				<canvas id="canvas" class="wh posAbs"></canvas>
+				<img src="../../../images_pc/slogan.png" alt="" class="sloganImg posAbs cen">
+				<!-- <img src="../images_pc/anniu.gif" alt="" class="anniuIcon posAbs play" data-videourl="../mp4/index.mp4"> -->
+				<!-- <div class="bunner_img cen flex flexBet">
+						<img src="../images_pc/xsLbIcon.png" alt="" class="xsLbIcon">
+						<div class="block_img flex">
+							<a href="https://down.520cai.net/sdkgame/jlfzgband_6227/jlfzgband_6227.apk"><img src="../images_pc/android.png"
+								 alt="" class="android"></a>
+							<a href="javascript:;" class="iosAppDown"><img src="../images_pc/app.png" alt="" class="ios"></a>
+						</div>
+						<img src="../images_pc/checkUp_join.png" alt="" class="checkUp">
+					</div> -->
+			</div>
+		</div>
+		<!--新闻资讯模块-->
+		<div id="news_Box">
+			<img src="../../../images_pc/newsBoxBg.png" style="width: 100%;height: auto;" class="newsBoxBg posAbs">
+			<div class="news_box posRel">
+				<div class="downLoadBox flex">
+					<a href="javascript:;" class="androidAppDown"><img src="../../../images_pc/android.png" alt="" class="android androidAppDown"></a>
+					<a href="javascript:;" class="iosAppDown"><img src="../../../images_pc/app.png" alt="" class="ios"></a>
+					<img src="../../../images_pc/xsLbIcon.png" alt="" class="xsLbIcon">
+					<img src="" alt="" class="sm">
+				</div>
+				<div class="newsListBox" style="background: rgba(1,39,58,0.8);border-top:1px solid #ffffff;border-bottom:1px solid #ffffff;border-left:1px solid #f4ecec;border-right: 1px solid #f4ecec;">
+					<div class="newsTabBox flex flexEnd">
+						<ul class="clear">
+							<li class="flex flexCen active">
+								全部
+							</li>
+							<li class="flex flexCen">
+								新闻
+							</li>
+							<li class="flex flexCen">
+								活动
+							</li>
+							<li class="flex flexCen">
+								公告
+							</li>
+						</ul>
+					</div>
+					<div class="titleBox">
+						首页>新闻资讯>巨龙出没 一起盘他 《巨龙法则》抖音挑战赛火爆开启
+					</div>
+					<div class="news_content">
+						<div class="r_content">
+							<div class="r_title">巨龙出没 一起盘他 《巨龙法则》抖音挑战赛火爆开启 </div>
+							<div class="time_sp">2019-08-09</div>
+							<div class="news_content_box">
+								<!-- 正文 begin -->
+								<div><span>
+										西方魔幻巨龙MMO手游《巨龙法则》，已于暑期强势上线。当《巨龙法则》遇上抖音，必然诞生一种奇妙的化学反应。一场以“#巨龙出没清注意”为话题的抖音挑战赛火爆开启，给这个盛夏带来新的激情！参与本次抖音挑战赛，更有机会赢取华为P30pro手机等大奖！</span></div>
+								<div>&nbsp;</div>
+								<div style="text-align: center"><span><img alt="" src="../../../activity_web/all/uploads/1/1.png"></span></div>
+								<div>&nbsp;</div>
+								<div style="text-align: center"><span><strong>寻找你身边的“巨龙身影”</strong></span></div>
+								<div>&nbsp;</div>
+								<div><span>爱玩抖音的你一定不要错过这个活动，2019年8月10日—2019年9月10日，打开抖音短视频APP，参与抖音话题“巨龙出没请注意”，使用挑战赛专属贴纸，发现你身边的巨龙身影，晒出有趣的巨龙出没故事，关注并@巨龙法则 官方抖音账号，参与挑战赛即有机会赢取华为P30
+										Pro手机等惊喜礼品。</span></div>
+								<div>&nbsp;</div>
+								<div style="text-align: center"><span><img alt="" src="../../../activity_web/all/uploads/1/2.png"></span></div>
+								<div>&nbsp;</div>
+								<div style="text-align: center"><span><strong>与众多抖音达人一起向“巨龙”发起挑战</strong></span></div>
+								<div>&nbsp;</div>
+								<div><span>那么怎样快速的找到我们的话题呢？首先，可以通过在抖音搜索框搜索“巨龙出没请注意”，进入话题挑战赛，点击下方的参与即可拍摄视频，参与挑战赛。当然，除了这个还有更简单的进入挑战赛方法。活动期间，“抖音热搜榜”将会出现“巨龙出没快来盘他”的话题，点进去就可以参与了。最最重要的来了，官方已经邀请众多顶级抖音达人参与活动。活动期间，你将会看到“巨龙法则请注意”的话题，出现在各个抖音达人的视频中。同样的，点击“巨龙出没请注意”就可以参与话题挑战赛啦。</span></div>
+								<div>&nbsp;</div>
+								<div style="text-align: center"><span><img alt="" src="../../../activity_web/all/uploads/1/3.png"></span></div>
+								<div>&nbsp;</div>
+								<div style="text-align: center"><span><strong>“巨龙”携惊喜奖品，引爆你的抖音世界</strong></span></div>
+								<div>&nbsp;</div>
+								<div><span>官方将会在2019年9月17日公布中奖名单，只要符合参与条件的视频，官方将根据视频综合指数和品牌关联度，评选出一、二、三等奖。本次“#巨龙出没请注意”抖音挑战赛，不止奖品非常的丰厚，奖品数量也很多哦。一等奖5名，奖品是让人心动不已的华为P30
+										pro手机；二等奖5名，奖品是可以让你“买买买”的2000元京东卡；三等奖5名，奖品是可以可以带你听觉享受的小米蓝牙耳机Air。除了以上一、二、三等奖的奖励外，只要参与挑战赛即可获得一份《巨龙法则》游戏专属礼包。</span></div>
+								<div>&nbsp;</div>
+								<div style="text-align: center"><span><img alt="" src="../../../activity_web/all/uploads/1/4.jpg"></span></div>
+								<div>&nbsp;</div>
+								<div><span>《巨龙法则》是以西方魔幻题材为主的世界观，由人类、维京、亡灵等种族构成大世界的西方魔幻巨龙MMO手游。历时数年研发测试，品质可谓千锤百炼。史诗战役历史重现，厮杀快感激情澎湃，龙族的最强阵容等你来号召，想要获得抖音与游戏带来的双重快感的你，一定不要错过~</span></div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!--新闻资讯模块-->
+
+		<!-- 清风底部 -->
+		<footer>
+			<!-- <div class="footer-row helper">
+					<a href="http://www.520cai.com/home.php/Index/News/aboutus/id/1" target="_blank">关于我们</a>
+					<span class="dwCommonFooter__split">|</span>
+					<a href="http://www.520cai.com/home.php/Index/News/aboutus/id/2" target="_blank">商务合作</a>
+					<span class="dwCommonFooter__split">|</span>
+					<a href="http://www.520cai.com/home.php/Index/News/aboutus/id/4" target="_blank">联系我们</a>
+					<span class="dwCommonFooter__split">|</span>
+					<a href="http://www.520cai.com/home.php/Index/Index/custody" target="_blank">家长监护</a>
+				</div> -->
+			<div class="footer-row">
+				<p>版权所有：武汉极游控科技有限公司 </p>
+			</div>
+			<div class="footer-row">
+				<a target="_blank" href="javascript:;">网络文化经营许可证：鄂网文 【2018】5264 148号 </a>
+
+			</div>
+			<div class="footer-row">
+				<a target="_blank" href="javascript:;">经营许可证编号:鄂B2-20190050</a>
+				<a>互联网ICP备案：鄂ICP备18007936号-2</a>
+				<!-- <a target="_blank" href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=42018502001468">
+						<img data-original="http://www.beian.gov.cn/img/ghs.png" src="http://www.beian.gov.cn/img/ghs.png" style="display: inline-block;">
+						鄂公网安备 42018502001468号
+					</a> -->
+			</div>
+			<div class="footer-row">
+				<p>抵制不良游戏，拒绝盗版游戏。注意自我保护，谨防受骗上当。适度游戏益脑，沉迷游戏伤身。合理安排时间，享受健康生活。</p>
+			</div>
+		</footer>
+		<!-- 清风底部 -->
+		<!-- 预约窗口 -->
+		<div id="get" class="window">
+			<a class="close" href="javascript:void(0)" title="关闭"></a>
+			<div class="check-box">
+				<a href="javascript:void(0);" data-check="apple" class="ios on"><i></i>iOS</a>
+				<a href="javascript:void(0);" data-check="android" class="android"><i></i>安卓</a>
+			</div>
+			<ul>
+				<li><input name="" type="text" class="phone-box m-box" value="请输入手机号码" onfocus="if(value=='请输入手机号码') {value=''}"
+					 onblur="if (value=='') {value='请输入手机号码'}"></li>
+				<li class="mt-30">
+					<!-- <a href="javascript:void(0);" class="yzm">重新获取</a> --><a href="javascript:void(0);" class="yzm">52S后重发</a><input
+					 name="" type="text" class="phone-box yzm-box" value="请输入验证码" onfocus="if(value=='请输入验证码') {value=''}" onblur="if (value=='') {value='请输入验证码'}"></li>
+			</ul>
+			<a href="javascript:;" class="submit-bit" title="确认">确认</a>
+			<p>注:本次预约活动为公测专属活动，预约奖励将在公测开启时发放!</p>
+		</div>
+
+		<!--视频弹出one-->
+		<div id="game_video" class="views">
+			<div>
+				<video controls></video>
+				<b>×</b>
+			</div>
+		</div>
+
+		<script src="../../../js/yuyue.js"></script>
+		<script>
+			$(function() {
+				// 弹出登录框
+				function show() {
+					closeAll();
+					$(".windowblack").height($("body").height()).show();
+					$(".window").show();
+				}
+
+				function closeAll() {
+					$(".windowblack,.window").hide();
+				}
+
+				//打开预约窗口
+				$('.block_img .btn-b,.download').click(function() {
+					$('#get').show();
+				})
+				//关闭预约窗口
+				$('.get_x,.close').click(function() {
+					$('#get').hide();
+				})
+
+				//视频弹出one
+				var $video = $("#game_video video");
+				$(".story_bunner ul li img ,.circle").click(function() {
+					var videoURL = $(this).attr("data-videoURL");
+					if (typeof(videoURL) != "undefined") {
+						$video.attr("src", videoURL).parents("#game_video").slideDown(400).css("display", "table"); //更新url
+						$("#game_video video").attr("autoplay", "true"); //直接播放
+					}
+					return false
+				})
+				$video.next("b").on("click", function() {
+					$video.get(0).pause();
+					$video.parents("#game_video").slideUp(400);
+				})
+
+				//分享按钮
+				$('.share').mouseover(function() {
+					$('#share_box').slideDown('1000');
+				});
+				$('#share_box ul li').click(function() {
+					$('#share_box').slideUp('1000');
+				})
+
+				//鼠标移入微信分享按钮
+				$('.wechat_mouseover').mouseover(function() {
+					$('.wechat').show();
+				})
+				$('.wechat').mouseout(function() {
+					$('#share_box').slideUp('1000');
+					$('.wechat').hide();
+				})
+
+				//点击除分享区域外的地方，隐藏分享区域
+				$(document).click(function() {
+					$('#share_box').slideUp('1000');
+					$('.wechat').hide();
+				});
+				$("#share_box").click(function(event) {
+					event.stopPropagation();
+				});
+
+			})
+		</script>
+
+		<style>
+			.block_img .ios {
+				margin-top: 10px;
+			}
+		</style>
+		<script>
+			function ShowCountDown(year, month, day, hour, minute, second) {
+				var now = new Date();
+				var endDate = new Date(year, month - 1, day, hour, minute, second);
+				var allTime = endDate.getTime() - now.getTime();
+				if (allTime > 0) {
+					$(".block_img .btn-b").show();
+					//$(".block_img .ios,.float-right").hide();
+				} else {
+					$(".block_img .btn-b,.new_down_box li span").hide();
+					//$(".block_img .ios,.float-right").show();
+				}
+			}
+			// 时间设定 2018,11,20,7,0,0
+			window.setInterval(function() {
+				ShowCountDown(2019, 1, 24, 8, 0, 0);
+			}, 100);
+		</script>
+		<script src="../../../js/cnzz.js"></script>
+
+	</body>
+</html>

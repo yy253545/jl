@@ -1,0 +1,80 @@
+*{margin:0; padding:0;}
+body {overflow:hidden;}
+body,ul,ol,li,p,h1,h2,h3,h4,h5,h6,table,td,th,form,fieldset,img,dl,dt,dd,em{margin:0;padding:0;}
+textarea,input,select,body{font-size:12px; line-height:20px;}
+select,input{vertical-align:middle;}
+fieldset,img{border:0;}
+ul,ol{list-style:none;}
+body {background:#000; margin:0 auto;font-family:Microsoft YaHei;}
+a {text-decoration:none; color:#808080;}
+
+.black{background:#000; width:100%; opacity: 0.5; position: absolute; top: 0; z-index: 1;}
+.box-bor {position:absolute; top:0; left:0; z-index:2; width:100%; height:auto; margin:0 auto; overflow:hidden; }
+.box-bor .left-top {position:absolute; top:10px; left:10px; width:60px; height:60px; background:url(../images_pc/ts_logo.png) 0 0 no-repeat; }
+.left-top,.right-top,.left-bottom,.right-bottom {position:absolute;  width:60px; height:60px; background:url(../images_pc/ts_logo.png) 0 0 no-repeat; }
+.left-top {top:10px; left:10px;}
+.right-top {top:10px; right:10px;}
+.left-bottom {bottom:10px; left:10px;}
+.right-bottom {bottom:10px; right:10px;}
+
+
+
+.top-bor,.bottom-bor {position:absolute; width:80%; height:1px; background-color:#4c4c4c;}
+.left-bor,.right-bor {position:absolute; width:1px; height:80px; background-color:#4c4c4c;}
+
+.top-bor {top:40px; left:80px; }
+.left-bor {left:40px; top:80px; }
+.right-bor {right:40px; top:80px;}
+.bottom-bor {bottom:40px; right:80px;}
+.menu-box {position:absolute; top:12px; left:0px; z-index:2; overflow:hidden; font-size:16px; width:100%;}
+.menu-box ul {float:left; margin-left:80px;}
+.menu-box li {float:left; margin-left:30px; }
+.menu-box .share-in {float:right; margin-top:50px;  width:300px;}
+.share-in {float:right;}
+.share-box {display:none; position:absolute; top:120px; right:212px; z-index:3;}
+.share-box ul {height:200px; width:86px;}
+.share-box .wechat {position:absolute; top:15px; left:66px; display:none;}
+
+.slogan {position: absolute; top:90px; left:50%; z-index: 3; margin-left:-600px; width:900px; height:80%;}
+.slogan .top-center{margin-top:150px; width: 180px; height:400px; background:url(../images_pc/ts_top.png) center top no-repeat; }
+.slogan .Rotation {position: absolute; top: 80px;left:50%; margin-left:22px;}
+.slogan .play {position: absolute; top: 110px;left:50%; margin-left:70px; cursor:pointer;}
+.slogan .title {position: absolute; bottom:20px; left:50%; margin-left: -325px; text-align:center; }
+@-webkit-keyframes rotation{
+    0%{-webkit-transform: rotate(0deg);}
+    100% {-webkit-transform: rotate(360deg);}
+}
+@keyframes rotation{
+    0%{transform: rotate(0deg);}
+    100% {transform: rotate(360deg);}
+}
+.Rotation{
+    transform: rotate(360deg);
+    -webkit-transform: rotate(360deg);
+    animation: rotation 5s linear infinite;
+    -webkit-animation: rotation 5s linear infinite;
+}
+.hide {display:none;}
+.tab-box {position:absolute; top:150px; right:80px; z-index:2;}
+.tab-box ul {width:104px; }
+.tab-box li {margin-top:30px; width:104px; height:50px; background-image:url(../images_pc/num.png); background-repeat:no-repeat; }
+.tab-box li:nth-child(1) {background-position:-104px 0; }
+.tab-box li:nth-child(2) {background-position:-104px -50px; }
+.tab-box li:nth-child(3) {background-position:-104px -100px; }
+.tab-box li:nth-child(4) {background-position:-104px -150px; }
+.tab-box li:nth-child(5) {background-position:-104px -200px; }
+.tab-box li:nth-child(1).selected {background-position:0 0; }
+.tab-box li:nth-child(2).selected {background-position:0 -50px; }
+.tab-box li:nth-child(3).selected {background-position:0 -100px; }
+.tab-box li:nth-child(4).selected {background-position:0 -150px; }
+.tab-box li:nth-child(5).selected {background-position:0 -200px; }
+.video-player{width:100%;object-fit: fill; height:100%;}
+/*视频弹出*/
+.views {display: none;width: 100%;height: 100%;top: 0;left: 0;position: fixed;text-align: center;background: url(../images_pc/cover.png) repeat;z-index: 1000;}
+.views div {display: table-cell;vertical-align: middle;text-align: center;}
+.views video { width: 920px;height:450px; }
+.views b { width: 65px; position: absolute; font-size: 54px;color: #eee; background: rgba(255,255,255,.36); cursor: pointer }
+.views b:hover { color: #EF4D01 }
+#view_tips { overflow-y: scroll; }
+#view_tips b { top: 0; position: fixed; }
+#view_tips img { margin: auto; }
